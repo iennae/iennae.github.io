@@ -3,7 +3,7 @@ layout: post
 title: "First Hike of 2015: Nisene Marks SP"
 date: 2015-01-03 23:12:22 -0800
 comments: true
-categories: [hiking,vacation]
+categories: hiking
 ---
 
 A little over seven years ago I was starting a new job. At the time I was 3 years into a health journey and had a goal of doing 25 hikes in 1 year. In 2009, I hiked my longest single day hike of 14 miles across two parks. 

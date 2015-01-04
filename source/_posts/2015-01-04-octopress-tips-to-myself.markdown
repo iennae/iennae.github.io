@@ -3,7 +3,9 @@ layout: post
 title: "Octopress Tips to Myself"
 date: 2015-01-04 00:20:00 -0800
 comments: true
-categories: [blogging,octopress]
+categories: blogging
+published: true
+
 ---
 
 When building from source to add new posts.
