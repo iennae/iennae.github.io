@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blogging | SIGJE]]></title>
+  <link href="http://iennae.github.io/blog/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://iennae.github.io/"/>
+  <updated>2015-01-04T13:52:26-08:00</updated>
+  <id>http://iennae.github.io/</id>
+  <author>
+    <name><![CDATA[Jennifer Davis]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Tips to Myself]]></title>
+    <link href="http://iennae.github.io/blog/2015/01/04/octopress-tips-to-myself/"/>
+    <updated>2015-01-04T00:20:00-08:00</updated>
+    <id>http://iennae.github.io/blog/2015/01/04/octopress-tips-to-myself</id>
+    <content type="html"><![CDATA[<p>When building from source to add new posts.</p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git clone git@github.com:REPO
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>REPO
+</span><span class='line'><span class="nv">$ </span>git checkout -b <span class="nb">source </span>origin/source
+</span><span class='line'><span class="nv">$ </span>mkdir _deploy
+</span><span class='line'><span class="nv">$ </span>git clone git@github.com:REPO
+</span><span class='line'><span class="nv">$ </span>rake new_post<span class="o">[</span><span class="p">&amp;</span>ldquo<span class="p">;</span>TITLE<span class="p">&amp;</span>rdquo<span class="p">;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>Write blog entry.</p>
+
+<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rake generate
+</span><span class='line'><span class="nv">$ </span>rake deploy
+</span><span class='line'><span class="nv">$ </span>git add .
+</span><span class='line'><span class="nv">$ </span>git commit -m <span class="p">&amp;</span>lsquo<span class="p">;</span>MESSAGE<span class="p">&amp;</span>rsquo<span class="p">;</span>
+</span><span class='line'><span class="nv">$ </span>git push origin <span class="nb">source</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>For zsh issues for <a href="https://github.com/imathis/octopress/issues/117">rake new_post</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
