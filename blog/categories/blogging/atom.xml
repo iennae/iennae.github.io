@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blogging | SIGJE]]></title>
   <link href="http://iennae.github.io/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://iennae.github.io/"/>
-  <updated>2015-01-04T13:52:26-08:00</updated>
+  <updated>2015-01-04T13:56:19-08:00</updated>
   <id>http://iennae.github.io/</id>
   <author>
     <name><![CDATA[Jennifer Davis]]></name>
@@ -25,12 +25,10 @@
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 <span class='line-number'>5</span>
-<span class='line-number'>6</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git clone git@github.com:REPO
 </span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>REPO
 </span><span class='line'><span class="nv">$ </span>git checkout -b <span class="nb">source </span>origin/source
-</span><span class='line'><span class="nv">$ </span>mkdir _deploy
-</span><span class='line'><span class="nv">$ </span>git clone git@github.com:REPO
+</span><span class='line'><span class="nv">$ </span>git clone git@github.com:iennae/iennae.github.io.git _deploy
 </span><span class='line'><span class="nv">$ </span>rake new_post<span class="o">[</span><span class="p">&amp;</span>ldquo<span class="p">;</span>TITLE<span class="p">&amp;</span>rdquo<span class="p">;</span><span class="o">]</span>
 </span></code></pre></td></tr></table></div></figure></p>
 
@@ -49,6 +47,8 @@
 </span></code></pre></td></tr></table></div></figure></p>
 
 <p>For zsh issues for <a href="https://github.com/imathis/octopress/issues/117">rake new_post</a>.</p>
+
+<p>For custom domains, CNAME should be added to source/</p>
 ]]></content>
   </entry>
   
