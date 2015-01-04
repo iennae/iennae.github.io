@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Octopress Tips to Myself"
-date: 2015-01-04 00:00:00 -0800
+date: 2015-01-04 00:20:00 -0800
 comments: true
 categories: [blogging,octopress]
 ---
