@@ -25,3 +25,5 @@ $ git add .
 $ git commit -m 'MESSAGE'
 $ git push origin source
 {% endcodeblock %}
+
+For zsh issues for [rake new_post](https://github.com/imathis/octopress/issues/117).
