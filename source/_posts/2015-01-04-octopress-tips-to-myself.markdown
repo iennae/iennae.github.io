@@ -14,7 +14,7 @@ When building from source to add new posts.
 $ git clone git@github.com:REPO
 $ cd REPO
 $ git checkout -b source origin/source
-$ mkdir _deploy
+$ git clone git@github.com:iennae/iennae.github.io.git _deploy
 $ rake new_post["TITLE"]
 {% endcodeblock %}
 
