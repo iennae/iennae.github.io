@@ -1,0 +1,31 @@
+---
+layout: post
+title: "First Hike of 2015: Nisene Marks SP"
+date: 2015-01-03 23:12:22 -0800
+comments: true
+categories: 
+---
+
+A little over seven years ago I was starting a new job. At the time I was 3 years into a health journey and had a goal of doing 25 hikes in 1 year. In 2009, I hiked my longest single day hike of 14 miles across two parks. 
+
+![](https://farm4.staticflickr.com/3453/3393516147_e760d05d33_n.jpg) 
+
+
+Over time being the single point of failure at work meant that I was not able to spend weekends hiking. Somewhere along the way, job stress combined with appendicitis and complications from surgery led to a state of low energy, high pain and not a lot of positive fueling activities. 
+
+In 2014, I joined Chef. All of a sudden some of the barriers that were in place fell away. Admittedly some of these were self imposed based on my own (high) expectations of my work. I started physical therapy and celebrated being able to walk further month by month. 
+
+For the last 3 weeks I have been on vacation and taking advantage of it in part by getting back into hiking. Each year for the last few years I've set a reading goal on Goodreads that I have accomplished, this year I'm bringing back my hiking goals! Rather than setting a number of hikes, my goal is to be able to hike **15 miles** in a single day by December 2015.
+
+Today George, Brian and myself went on our first hike of 2015 at [The Forest of Nisene Marks State Park](http://www.parks.ca.gov/?page_id=666) which is a few miles north of Aptos. It was relatively short as I'm still sore from the last hike of 2014. Even though I've lived in the Bay area for years, until this past December I've never gone to this park. It's about an hour away from home and actually has a nicer area to walk with your dog than Henry Cowell. There are not great bathroom facilities here so not a great park for young families and long trips. The toilet at the trail head is enclosed in a small dark, dank building with the corpses of hundreds of flies on sticky paper hanging over your head. Paths are also not well marked. Lower areas allow dogs on leashes but past the "Winter Gate" dogs are only allowed on the fire road. Some of the trails cross the creek, and the expectation is to cross logs or rocks or wade.  
+
+Second growth redwoods line the road past the locked "Winter Gate". There are also some eucalyptus trees. The creek burbles along to the side. Mary Easton Picnic area is very quiet with lots of picnic tables and another small dark less dank toilet stop.
+
+We didn't see most of the items on this [checklist](http://www.inaturalist.org/check_lists/6438-The-Forest-of-Nisene-Marks-State-Park-Check-List) but we did see Oyster mushrooms! Apparently there is a yearly [Fungus Fair](http://ffsc.us/fair/2015/about) coming up next weekend where you can learn about the different fungi in the forest. We did see quite a bit of English Ivy which appears to be an invasive species. 
+
+Later this year we hope to hike up to the [1989 Loma Prieta Earthquake epicenter](http://www.parks.ca.gov/pages/666/files/TheForestNiseneMarksWebBroch2012.pdf). This is in a no-dog area part of the park so it will have to be a no-dog hiking day.
+
+Overall this was a great adventure. I can easily see us coming back multiple times as I build back my stamina. There are short and long hikes with a wide range of experiences. The Aptos Creek Fire Road between the Steel Bridge to the Mary Easton Picnic area is mostly flat with a small bit of elevation towards the end. Past this area there is a gate that marks where dogs aren't allowed (and they aren't allowed on the Porter Trail or the West Ridge Trail). The Terrace Trail, and Oak Ridge Trail both have a small bit of elevation. While our hike was short, there is so much more for us to do here including hiking all the way out to the Soquel Demonstration State forest. 
+
+I'm really glad that my current job allows for me to even consider the idea of working towards this goal for myself. With the additional travel for clients and conferences there is potential for me to explore other areas as well. I am privileged to live in an area that continues to develop additional trails and parks to explore. I'm looking forward to finding out about other places that have trails to explore. If you have recommendations for your favorite areas to hike please do share!
+
