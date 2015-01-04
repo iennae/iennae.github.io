@@ -10,7 +10,6 @@ A little over seven years ago I was starting a new job. At the time I was 3 year
 
 ![](https://farm4.staticflickr.com/3453/3393516147_e760d05d33_n.jpg) 
 
-
 Over time being the single point of failure at work meant that I was not able to spend weekends hiking. Somewhere along the way, job stress combined with appendicitis and complications from surgery led to a state of low energy, high pain and not a lot of positive fueling activities. 
 
 In 2014, I joined Chef. All of a sudden some of the barriers that were in place fell away. Admittedly some of these were self imposed based on my own (high) expectations of my work. I started physical therapy and celebrated being able to walk further month by month. 

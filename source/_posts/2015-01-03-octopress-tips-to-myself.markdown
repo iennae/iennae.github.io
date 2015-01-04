@@ -16,7 +16,7 @@ $ mkdir _deploy
 $ rake new_post["TITLE"]
 {% endcodeblock %}
 
-Write blog entry. 
+Write blog entry.  
 
 {% codeblock lang:bash %}
 $ rake generate
