@@ -4,7 +4,7 @@
   <title><![CDATA[SIGJE]]></title>
   <link href="http://iennae.github.io/atom.xml" rel="self"/>
   <link href="http://iennae.github.io/"/>
-  <updated>2015-01-04T23:15:23-08:00</updated>
+  <updated>2015-01-12T13:34:49-08:00</updated>
   <id>http://iennae.github.io/</id>
   <author>
     <name><![CDATA[Jennifer Davis]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Chef Conf 2015 Extended Deadline January 13]]></title>
+    <link href="http://iennae.github.io/blog/2015/01/12/chef-conf-2015-extended-deadline-january-13/"/>
+    <updated>2015-01-12T13:34:03-08:00</updated>
+    <id>http://iennae.github.io/blog/2015/01/12/chef-conf-2015-extended-deadline-january-13</id>
+    <content type="html"><![CDATA[<h1>Chef Conf 2015 Extended Deadline January 13</h1>
+
+<p><a href="http://chefconf.com">Chef Conf 2015</a> is coming at the end of March! I joined Chef last year, and Chef Conf 2014 was my first Chef Conference. As an employee, I got to see behind the scenes. I was introduced to this idea of having Speaker Liasons and Room Captains that smooth out the speaker experience. Barry Crist (Chef&rsquo;s CEO) and Adam Jacob (Chef&rsquo;s CTO) had human focused talks which set the tone for the conference. The Chef community as a whole is one of the most encouraging, and helpful communities I&rsquo;ve been a part of yet it has one of the same problems that other technical communities have in terms of diversity.</p>
+
+<p>The conference has a <a href="https://www.chef.io/blog/chefconfcodeofconduct/">code of conduct</a>. Separately we also have a community <a href="https://github.com/opscode/chef-rfc/blob/master/rfc020-community-guidelines.md">code of conduct</a>.</p>
+
+<h2>Chef Conf 2015 Dates</h2>
+
+<ul>
+<li>January 13 2-5PM PST Open Office Hours</li>
+<li>January 15 11:59PM PST <a href="https://docs.google.com/forms/d/1i-jMg8jqJ_Z3JkkOELIdXXfdsf743uITcbRcrWF_XTQ/viewform">Submission Portal Closes</a>.</li>
+<li>January 21 11:59PM PST Speakers notified of acceptance.</li>
+<li>March 31 - April 2 Chef Conf 2015</li>
+</ul>
+
+
+<h2>Conference Details</h2>
+
+<p>Chef Conf 2015 will be held at the Santa Clara Convention Center in Santa Clara, California (right next to the Levi Stadium home to the San Francisco 49ers) from March 31 to April 2. Early bird pricing is $1095. After January 31, the conference is $1395.</p>
+
+<h2>Speaking Details</h2>
+
+<p>We have 3 type of speaking slots, 40 minute talks, 5 minute lightning talks, and 2-3 hour workshops.</p>
+
+<p>You can check out the <a href="http://chefconf2014.busyconf.com/schedule">2014 schedule</a> for last years accepted talks. For other ideas, you can also take a look at the topics that were discussed at <a href="https://github.com/opscode/chef-summit-2014/wiki">Chef Summit 2014</a> during the open sessions.</p>
+
+<h2>Speaker Benefits</h2>
+
+<p>If your proposal is accepted, you will receive a ticket to Chef Conf including all meals. Please let us know about any food allergies. We do provide vegan and gluten free options by default.</p>
+
+<p>You will have access to a Speaker Liason who will assist you onsite. For example if you run into problems like a forgotten laptop dongle, or your laptop breaks at the last minute, ping your Speaker Liason. There will also be two assigned Room Captains who will introduce your talk.</p>
+
+<p>If you are a first time speaker, we will connect you with a mentor to help you.</p>
+
+<p>If your proposal is NOT accepted, we do provide a discount code to Chef Conf.</p>
+
+<h2>Talk Selection</h2>
+
+<p>Talks are reviewed, discussed and voted on by a diverse group of Chef employees. By January 21, speakers will be notified of their acceptance.
+We do get a large number of submissions which means that we can&rsquo;t accept every talk. If your talk is not accepted it does not mean that it&rsquo;s not a good talk. We encourage you to submit your proposal to other conferences and meetup groups in your area as well.</p>
+
+<h2>Open Office Hours</h2>
+
+<p>Need help with idea generation or your talk proposal? Contact [Jennifer Davis]<a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#x73;&#105;&#103;&#x6a;&#101;&#x40;&#99;&#x68;&#x65;&#102;&#x2e;&#105;&#x6f;">&#x73;&#x69;&#103;&#x6a;&#x65;&#64;&#x63;&#104;&#101;&#102;&#x2e;&#x69;&#111;</a> to schedule a 10-20 minute slot on Tuesday, January 13 from 2-5pm.</p>
+
+<p>Is there other information you would like to know? Let us know <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#99;&#x68;&#x65;&#x66;&#x63;&#111;&#x6e;&#x66;&#64;&#x63;&#104;&#x65;&#x66;&#46;&#x69;&#111;">&#x63;&#104;&#101;&#x66;&#99;&#111;&#110;&#102;&#x40;&#99;&#x68;&#x65;&#102;&#x2e;&#105;&#x6f;</a>.
+<a href="https://docs.google.com/forms/d/1i-jMg8jqJ_Z3JkkOELIdXXfdsf743uITcbRcrWF_XTQ/viewform">Submit your proposal by Thursday January 15</a>!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Tips to Myself]]></title>
