@@ -24,7 +24,7 @@ As a remote employee at [Chef](http://chef.io), it has become even more valuable
 
 [Coffeeops](http://www.coffeeops.org/) is a way to generate your own hallway track, cross company cooperation and individual improvement.
 
-How do you start up a CoffeeOps?
+<h2>How do you start up a CoffeeOps?</h2>
 
 * Be patient, it takes time to catch hold. How much community do you already have? Are there people looking for the same kind of outlet? Is there already something filling the gap? What is the density of people in your area? Do you have the time and energy to expend if this is completely new in your area? 
 * Talk about it. Ask for help. Use twitter and mailing lists. 
