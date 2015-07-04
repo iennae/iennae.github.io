@@ -26,9 +26,20 @@ As a remote employee at [Chef](http://chef.io), it has become even more valuable
 
 How do you start up a CoffeeOps?
 
-* It takes time to catch hold.
-* Talk about it. Ask for help. Use twitter and mailing lists.
+* Be patient, it takes time to catch hold. How much community do you already have? Are there people looking for the same kind of outlet? Is there already something filling the gap? What is the density of people in your area? Do you have the time and energy to expend if this is completely new in your area? 
+* Talk about it. Ask for help. Use twitter and mailing lists. 
 * Pick a good environment for talking.
 * Have coffee and show up. More people will show up over time. (You can also drink tea or cocoa or have brunch!)
 * Treat the meeting as work. Talk about it with your co-workers and your manager. 
+* When starting out don't get too bogged down by formalities of rules and procedures. Code of Conduct is important. Any other aspect is open for discussion based on the group of people that come together. Some folks will make the decision to come based on an agenda. Others will be more likely to come if it's more freeform as they deal with other obligations before heading over. 
+
+
+
+
+
+ 
+
+
+
+
 
