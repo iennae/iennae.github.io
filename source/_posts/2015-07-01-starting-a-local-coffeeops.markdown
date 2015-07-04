@@ -22,7 +22,7 @@ I sent out a tweet with a location, time and #coffeeops and showed up. The first
 
 As a remote employee at [Chef](http://chef.io), it has become even more valuable to me as water cooler time; that time to take a break and take a breather.
 
-It's also a place to think out loud sharing ideas in their nascent form allowing room to figure out the real position held. Ideas grow and become great through the contributions and challenges of the group. All of the folks attending CoffeeOps Santa Clara were critical in helping me shape my thoughts in the well-received ["Hero to Zero"](http://www.devopsdays.org/events/2014-pittsburgh/proposals/From%20Hero%20to%20Zero/) talk. 
+It's also a place to think out loud sharing ideas in their nascent form allowing room to figure out the real position held. Ideas grow and become great through the contributions and challenges of the group. All of the folks attending CoffeeOps Santa Clara were critical in helping me shape my thoughts in the well-received ["Hero to Zero"](http://livestream.com/devopsdaysorg/events/3044568/videos/52394934) talk. 
 
 [Coffeeops](http://www.coffeeops.org/) is a way to generate your own hallway track, cross company cooperation and individual improvement. 
 
