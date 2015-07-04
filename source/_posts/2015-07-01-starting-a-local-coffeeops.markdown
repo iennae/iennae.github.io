@@ -28,7 +28,8 @@ It's also a place to think out loud sharing ideas in their nascent form allowing
 
 <h2>How do you start up a CoffeeOps?</h2>
 
-* Be patient, it takes time to catch hold. How much community do you already have? Are there people looking for the same kind of outlet? Is there already something filling the gap? What is the density of people in your area? Do you have the time and energy to expend if this is completely new in your area? 
+* Should you start a CoffeeOps? How much community do you already have? Are there people looking for the same kind of outlet? Is there already something filling the gap? What is the density of people in your area? Do you have the time and energy to expend if this is completely new in your area? 
+* Be patient, it takes time to catch hold. 
 * It's important to be welcoming, encouraging inclusivity as new people join. 
 * Talk about it. Ask for help. Use twitter and mailing lists. 
 * Pick a good environment for talking.
