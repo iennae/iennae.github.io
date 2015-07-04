@@ -20,18 +20,21 @@ I envisioned creating a "hallway track" space with intra-company cooperation; af
 
 I sent out a tweet with a location, time and #coffeeops and showed up. The first few times, only one or two folks would show up. As time passed more people joined and interesting discussions like [leveling up your skills](https://medium.com/bridging-the-gaps/leveling-up-your-skills-51169238e0d7) were had. Now, other folks have started up local coffeeops from [Seattle, Washington](http://www.meetup.com/Downtown-Seattle-Friday-Morning-CoffeeOps/) to Sydney, Australia. 
 
-As a remote employee at [Chef](http://chef.io), it has become even more valuable to me as water cooler time; that time to take a break and take a breather.  
+As a remote employee at [Chef](http://chef.io), it has become even more valuable to me as water cooler time; that time to take a break and take a breather.
 
-[Coffeeops](http://www.coffeeops.org/) is a way to generate your own hallway track, cross company cooperation and individual improvement.
+It's also a place to think out loud sharing ideas in their nascent form allowing room to figure out the real position held. Ideas grow and become great through the contributions and challenges of the group. All of the folks attending CoffeeOps Santa Clara were critical in helping me shape my thoughts in the well-received ["Hero to Zero"](http://www.devopsdays.org/events/2014-pittsburgh/proposals/From%20Hero%20to%20Zero/) talk. 
+
+[Coffeeops](http://www.coffeeops.org/) is a way to generate your own hallway track, cross company cooperation and individual improvement. 
 
 <h2>How do you start up a CoffeeOps?</h2>
 
 * Be patient, it takes time to catch hold. How much community do you already have? Are there people looking for the same kind of outlet? Is there already something filling the gap? What is the density of people in your area? Do you have the time and energy to expend if this is completely new in your area? 
+* It's important to be welcoming, encouraging inclusivity as new people join. 
 * Talk about it. Ask for help. Use twitter and mailing lists. 
 * Pick a good environment for talking.
-* Have coffee and show up. More people will show up over time. (You can also drink tea or cocoa or have brunch!)
-* Treat the meeting as work. Talk about it with your co-workers and your manager. 
+* Have coffee and show up. More people will show up over time. (You can also drink tea or cocoa or have brunch!) 
 * When starting out don't get too bogged down by formalities of rules and procedures. Code of Conduct is important. Any other aspect is open for discussion based on the group of people that come together. Some folks will make the decision to come based on an agenda. Others will be more likely to come if it's more freeform as they deal with other obligations before heading over. 
+
 
 
 
