@@ -12,7 +12,7 @@ Part of the energy derived from Marius being awesome. Marius has been a key [Dev
 
 Part of the energy derived from the mental engagement outside of the everyday. The value of this fellowship was expanding horizons to see beyond the walls of the technology and cultural mores of my then company. My role was in the middle of the company's "ladder of prestige" leading to a lot of pressure with little reward. I had been having problems seeing the value of the work I was doing or what impact it made.
 
-![Ladder of Prestige]({{ site.url }}/images/ladder_of_prestige_small.jpg)  
+![Ladder of Prestige]({{ site.url }}/assets/ladder_of_prestige_small.jpg)  
 
 Talking to Marius gave me insight about what I was working on. It helped me recognize that I needed a change and that it was critical for my mental health to connect with a larger community of practicitioners. 
 
