@@ -30,5 +30,5 @@ How do you start up a CoffeeOps?
 * Talk about it. Ask for help. Use twitter and mailing lists.
 * Pick a good environment for talking.
 * Have coffee and show up. More people will show up over time. (You can also drink tea or cocoa or have brunch!)
-* Treat the meeting as work. Part of effective working is education and 
+* Treat the meeting as work. Talk about it with your co-workers and your manager. 
 
