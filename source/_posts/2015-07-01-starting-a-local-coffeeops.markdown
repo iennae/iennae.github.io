@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-A few years ago after a conference, a friend recommended I meet up with [Marius Dulcea](https://twitter.com/mariusducea) in the Bay area. We grabbed some coffee and with the discussion I felt energized. 
+A few years ago after a conference, a friend recommended I meet up with [Marius Ducea](https://twitter.com/mariusducea) in the Bay area. We grabbed some coffee and with the discussion I felt energized. 
 
 Part of the energy derived from Marius being awesome. Marius has been a key [DevOpsDays Silicon Valley](http://www.devopsdays.org/events/2015-siliconvalley/) organizer for years and community builder within the Chef and DevOps community. His insight into a variety of current and future technology was interesting and educational. 
 
