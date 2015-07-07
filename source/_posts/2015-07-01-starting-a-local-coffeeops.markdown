@@ -18,9 +18,9 @@ All conferences have a informal hallway track that describes the conversations i
 
 I envisioned creating a "hallway track" space with intra-company cooperation; affording individuals a place to meet together with no agenda, to connect and share in an undirected manner. 
 
-I sent out a tweet with a location, time and #coffeeops and showed up. The first few times, only one or two folks would show up. As time passed more people joined and interesting discussions like [leveling up your skills](https://medium.com/bridging-the-gaps/leveling-up-your-skills-51169238e0d7) were had. Now, other folks have started up local coffeeops from [Seattle, Washington](http://www.meetup.com/Downtown-Seattle-Friday-Morning-CoffeeOps/) to Sydney, Australia. 
+I sent out a tweet with a location, time and #coffeeops and showed up. The first few times, only one or two folks would show up. As time passed more people joined and interesting discussions like [leveling up your skills](https://medium.com/bridging-the-gaps/leveling-up-your-skills-51169238e0d7) were had. Years later, other folks have started up local coffeeops from [Seattle, Washington](http://www.meetup.com/Downtown-Seattle-Friday-Morning-CoffeeOps/) to Sydney, Australia. 
 
-As a remote employee at [Chef](http://chef.io), it has become even more valuable to me as water cooler time; that time to take a break and remember to breathe.
+I've changed jobs, and as a remote employee at [Chef](http://chef.io), it has become even more valuable to me as water cooler time; that time to take a break and remember to breathe.
 
 It's also a place to think out loud sharing ideas in their nascent form allowing room to figure out the real position held. Ideas grow and become great through the contributions and challenges of the group. All of the folks attending CoffeeOps Santa Clara were critical in helping me shape my thoughts in the well-received ["Hero to Zero"](http://livestream.com/devopsdaysorg/events/3044568/videos/52394934) talk. 
 
