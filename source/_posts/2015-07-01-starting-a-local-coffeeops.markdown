@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-A few years ago I met up with [Marius Ducea](https://twitter.com/mariusducea) at [Chromatic Coffee](http://www.chromaticcoffee.com/) in the Bay area. Afterwards I felt  more enthusiastic about work due to Marius being awesome and the mental engagement outside of the everyday. 
+A few years ago I met [Marius Ducea](https://twitter.com/mariusducea) at [Chromatic Coffee](http://www.chromaticcoffee.com/). Afterwards reflecting on the time that I spent, I felt more enthusiastic about my work in the industry due to Marius being awesome and the mental engagement outside of the everyday. 
 
 Marius has been a key [DevOpsDays Silicon Valley](http://www.devopsdays.org/events/2015-siliconvalley/) organizer for years and community builder within the Chef and DevOps community. His insight into a variety of current and future technology was interesting and educational. 
 
