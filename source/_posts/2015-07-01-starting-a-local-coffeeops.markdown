@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-A few years ago I met up with [Marius Ducea](https://twitter.com/mariusducea) at Chromatic Coffee in the Bay area. Afterwards I felt lighter than I had in a while and more enthusiastic about work due to Marius being awesome, and the mental engagement outside of the everyday. 
+A few years ago I met up with [Marius Ducea](https://twitter.com/mariusducea) at [Chromatic Coffee](http://www.chromaticcoffee.com/) in the Bay area. Afterwards I felt  more enthusiastic about work due to Marius being awesome, and the mental engagement outside of the everyday. 
 
 Marius has been a key [DevOpsDays Silicon Valley](http://www.devopsdays.org/events/2015-siliconvalley/) organizer for years and community builder within the Chef and DevOps community. His insight into a variety of current and future technology was interesting and educational. 
 
@@ -16,11 +16,11 @@ Talking to Marius gave me insight about what I was working on. It helped me reco
 
 All conferences have a informal hallway track that describes the conversations in conference corridors in between sessions and after hours. Depending on costs of attendance and job flexibility, the hallway track may not be available to a majority of people in the industry. Also a specific conference may only last for a few days, why wait a whole year to get the benefits of the "hallway track"?
 
-I envisioned creating a "hallway track" space with intra-company cooperation; affording individuals a place to meet together with no agenda, to connect, share in an undirected manner. 
+I envisioned creating a "hallway track" space with intra-company cooperation; affording individuals a place to meet together with no agenda, to connect and share in an undirected manner. 
 
 I sent out a tweet with a location, time and #coffeeops and showed up. The first few times, only one or two folks would show up. As time passed more people joined and interesting discussions like [leveling up your skills](https://medium.com/bridging-the-gaps/leveling-up-your-skills-51169238e0d7) were had. Now, other folks have started up local coffeeops from [Seattle, Washington](http://www.meetup.com/Downtown-Seattle-Friday-Morning-CoffeeOps/) to Sydney, Australia. 
 
-As a remote employee at [Chef](http://chef.io), it has become even more valuable to me as water cooler time; that time to take a break and remember to breath.
+As a remote employee at [Chef](http://chef.io), it has become even more valuable to me as water cooler time; that time to take a break and remember to breathe.
 
 It's also a place to think out loud sharing ideas in their nascent form allowing room to figure out the real position held. Ideas grow and become great through the contributions and challenges of the group. All of the folks attending CoffeeOps Santa Clara were critical in helping me shape my thoughts in the well-received ["Hero to Zero"](http://livestream.com/devopsdaysorg/events/3044568/videos/52394934) talk. 
 
