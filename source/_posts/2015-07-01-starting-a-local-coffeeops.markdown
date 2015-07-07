@@ -33,3 +33,5 @@ It's also a place to share ideas in their nascent form allowing room for the ide
 * Pick a good environment for talking.
 * Have coffee and show up. More people will show up over time. (You can also drink tea or cocoa or have brunch!) 
 * When starting out don't get too bogged down by formalities of rules and procedures. Code of Conduct is important. Any other aspect is open for discussion based on the group of people that come together. Some folks will make the decision to come based on an agenda. Others will be more likely to come if it's more freeform as they deal with other obligations before heading over. 
+
+Shout out to all the Slack CoffeeOps folks who helped me polish my thoughts here, and for the introduction to [Ink Drop](http://www.gouletpens.com/ink-drop) to help me in my quest for awesome ink. 
