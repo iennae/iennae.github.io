@@ -6,11 +6,11 @@ comments: true
 categories: 
 ---
 
-A few years ago after a conference, a friend recommended I meet up with [Marius Ducea](https://twitter.com/mariusducea) in the Bay area. We grabbed some coffee and with the discussion I felt energized. 
+A few years ago after a conference, a friend recommended I meet up with [Marius Ducea](https://twitter.com/mariusducea) in the Bay area. We grabbed some coffee and with the discussion I felt energized due to Marius being awesome, and the mental engagement outside of the everyday. 
 
-Part of the energy derived from Marius being awesome. Marius has been a key [DevOpsDays Silicon Valley](http://www.devopsdays.org/events/2015-siliconvalley/) organizer for years and community builder within the Chef and DevOps community. His insight into a variety of current and future technology was interesting and educational. 
+Marius has been a key [DevOpsDays Silicon Valley](http://www.devopsdays.org/events/2015-siliconvalley/) organizer for years and community builder within the Chef and DevOps community. His insight into a variety of current and future technology was interesting and educational. 
 
-Part of the energy derived from the mental engagement outside of the everyday. The value of this fellowship was expanding horizons to see beyond the walls of the technology and cultural mores of my then company. My role was in the middle of the company's "ladder of prestige" leading to a lot of pressure with little reward. I had been having problems seeing the value of the work I was doing or what impact it made.
+The value of this fellowship expanded my horizons to see beyond the walls of the technology and cultural mores. Smack dab in the middle of my then company's "ladder of prestige" led to a lot of pressure with little reward. I had been having problems seeing the value of the work I was doing or what impact it made.
 
 Talking to Marius gave me insight about what I was working on. It helped me recognize that I needed a change and that it was critical for my mental health to connect with a larger community of practitioners. 
 
