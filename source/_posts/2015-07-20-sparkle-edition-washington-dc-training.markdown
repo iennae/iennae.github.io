@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-Since I'm co-chairing the Devops track at Agile 2015 with [Dominica DeGrandis](http://www.ddegrandis.com/), I figured I'd take the opportunity to meet more folks in the area to see what kind of different challenges folks in the Washington D.C. are facing with implementing Chef and Devops in general. 
+Since I'm co-chairing the Devops track at Agile 2015 with [Dominica DeGrandis](http://www.ddegrandis.com/), I figured I'd take the opportunity to meet more folks in the Washington DC area to see what kind of different challenges folks are facing with implementing Chef and Devops in general. 
 
 One way I'm doing this is that I'll be giving [Chef Intermediate](https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/) on August 10-11 and [Chef Fundamentals](https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/) on August 12-13. 
 
