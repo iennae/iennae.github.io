@@ -12,7 +12,7 @@ One thing that I really enjoy about Chef (the company) is that we make our [trai
 
 Private trainings (trainings for specific companies) are really interesting because we can have really deep discussions about specific topics (depending on time) and it's easier to get people in a collaborative mindset. 
 
-Public trainings are also very interesting because I can encourage folks to cross the chasms between companies and share their individual challenges. I've found that depending on the area that I'm training, it can be harder to encourage folks to get into a collaborative mindset. (Shoutout to the trainings I did in Chicago where folks were 100% helpful. Extra kudos to Phaedra Evans, and [Marvin Street](https://twitter.com/MarvinEStreet) for going above and beyond in supporting their fellow students!)
+Public trainings are also very interesting because I can encourage folks to cross the chasms between companies and share their individual challenges. I've found that depending on the area that I'm training, it can be harder to encourage folks to get into a collaborative mindset. (Shoutout to the trainings I did in Chicago where folks were 100% helpful. Extra kudos to Phaedra Evans and [Marvin Street](https://twitter.com/MarvinEStreet) for going above and beyond in supporting their fellow students!)
 
 My goals when training are to create a safe place for folks to learn, share and build connections. All of our trainings fall under the Chef community [code of conduct](https://docs.chef.io/community_guidelines.html). 
 
