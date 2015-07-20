@@ -4,7 +4,7 @@
   <title><![CDATA[SIGJE]]></title>
   <link href="http://iennae.github.io/atom.xml" rel="self"/>
   <link href="http://iennae.github.io/"/>
-  <updated>2015-07-20T12:18:25-07:00</updated>
+  <updated>2015-07-20T12:19:42-07:00</updated>
   <id>http://iennae.github.io/</id>
   <author>
     <name><![CDATA[Jennifer Davis]]></name>
@@ -18,7 +18,7 @@
     <link href="http://iennae.github.io/blog/2015/07/20/sparkle-edition-washington-dc-training/"/>
     <updated>2015-07-20T11:18:49-07:00</updated>
     <id>http://iennae.github.io/blog/2015/07/20/sparkle-edition-washington-dc-training</id>
-    <content type="html"><![CDATA[<p>Since I&rsquo;m co-chairing the Devops track at Agile 2015 with <a href="http://www.ddegrandis.com/">Dominica DeGrandis</a>, I figured I&rsquo;d take the opportunity to meet more folks in the area to see what kind of different challenges folks in the Washington D.C. are facing with implementing Chef and Devops in general.</p>
+    <content type="html"><![CDATA[<p>Since I&rsquo;m co-chairing the Devops track at Agile 2015 with <a href="http://www.ddegrandis.com/">Dominica DeGrandis</a>, I figured I&rsquo;d take the opportunity to meet more folks in the Washington DC area to see what kind of different challenges folks are facing with implementing Chef and Devops in general.</p>
 
 <p>One way I&rsquo;m doing this is that I&rsquo;ll be giving <a href="https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/">Chef Intermediate</a> on August 10-11 and <a href="https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/">Chef Fundamentals</a> on August 12-13.</p>
 
