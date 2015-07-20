@@ -6,9 +6,7 @@ comments: true
 categories: 
 ---
 
-Since I'm co-chairing the Devops track at Agile 2015 with [Dominica DeGrandis](http://www.ddegrandis.com/), I figured I'd take the opportunity to meet more folks in the Washington DC area to see what kind of different challenges folks are facing with implementing Chef and Devops in general. 
-
-One way I'm doing this is that I'll be giving [Chef Intermediate](https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/) on August 10-11 and [Chef Fundamentals](https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/) on August 12-13. 
+Since I'm co-chairing the Devops track at Agile 2015 with [Dominica DeGrandis](http://www.ddegrandis.com/), I figured I'd take the opportunity to meet more folks in the Washington DC area to see what kind of different challenges folks are facing with implementing Chef and Devops in general. One way I'm doing this is an open invite for early edition [CoffeeOps](http://www.coffeeops.org/). I'm also giving [Chef Intermediate](https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/) on August 10-11 and [Chef Fundamentals](https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/) on August 12-13. 
 
 One thing that I really enjoy about Chef (the company) is that we make our [training materials](https://www.chef.io/contact/open-training/) available to folks under a [Creative Commons license](http://creativecommons.org/licenses/by-sa/4.0/) that allows (even encourages) folks to share and adapt the content as long as appropriate credit and licensing is maintained. Every individual that does Chef training teaches a little bit differently in terms of style although the materials are exactly the same. The value in the training isn't the materials, but the conversations, interactions and space that is created by the actual class. Every class is completely different because the people going to the training are completely different. 
 
