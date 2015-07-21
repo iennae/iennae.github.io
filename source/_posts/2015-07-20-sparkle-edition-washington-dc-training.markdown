@@ -38,6 +38,8 @@ If you are interested, but feel you don't have the right skills please get in to
 
 I also have a sekret code "HELLO-CHEF" that will take 10% off both [Chef Fundamentals](https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/) and [Chef Intermediate](https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/). 
 
+ETA: Extra special code "WDC20" for 20% off both classes! 
+
 The conference and training start early, so if you are an early person and are up for some [CoffeeOps](http://www.coffeeops.org/) time in the DC area let me know! 
 
 Sparkle On! 
