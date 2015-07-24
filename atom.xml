@@ -4,7 +4,7 @@
   <title><![CDATA[SIGJE]]></title>
   <link href="http://iennae.github.io/atom.xml" rel="self"/>
   <link href="http://iennae.github.io/"/>
-  <updated>2015-01-03T23:13:46-08:00</updated>
+  <updated>2015-07-23T20:16:21-07:00</updated>
   <id>http://iennae.github.io/</id>
   <author>
     <name><![CDATA[Jennifer Davis]]></name>
@@ -12,6 +12,235 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Diversity in Lens - Optimism]]></title>
+    <link href="http://iennae.github.io/blog/2015/07/23/diversity-in-lens-optimism/"/>
+    <updated>2015-07-23T19:26:20-07:00</updated>
+    <id>http://iennae.github.io/blog/2015/07/23/diversity-in-lens-optimism</id>
+    <content type="html"><![CDATA[<p>Earlier today I was sharing my feelings about optimism and it being one lens to look through to view the world. Each of us make a choice about &ldquo;reality&rdquo;. We process a moment in time through our experiences and our current state of mind cataloging it for future interactions. Shared stories from others help us to further entrench ourselves in our beliefs and values. Even in listening to a story, we are interpreting it based on our own assumptions about reality and what the words mean. We assign context based on our own beliefs, often assigning values of someone&rsquo;s character over words and behaviors rather than viewing it through the subjective context that individual is experiencing.</p>
+
+<p>The lens that we view the world through can be of optimism or pessimism; neither of which are inherently bad or good. Just as with a dev or ops role where it doesn&rsquo;t matter what role we are in as long as we understand the impact on business workflow; it doesn&rsquo;t matter what lens we are using as long as we understand its impact on our overall processing. The lens in place for a particular moment impacts our perceptions and affects the decisions that we make. When I&rsquo;m viewing the world through the optmist lens, I&rsquo;m driven by enthusiasm and energy seeing the opportunities and possibilities around me. When I&rsquo;m viewing the world through the pessimist lens, I&rsquo;m preparing myself for negative outcomes conserving energy until needed.</p>
+
+<p>In 2008, I wrote the following for myself. I&rsquo;m sharing it because I think it&rsquo;s important that we start talking about and actively choosing the way we choose to see the world. Sharing our personal context helps others to understand our behaviors perhaps even seeing themselves in a different light.</p>
+
+<blockquote><p>&ldquo;Focus on the best. The brilliance. The love. The hope. The best of what your life is. When someone asks you how your day was, or what you&rsquo;ve been up to.. reply with the very best of what is. Don&rsquo;t think about the frustrating bits.&rdquo;</p>
+
+<p>That&rsquo;s the advice I&rsquo;ve been giving myself. On these last few days of taking time off of work.. and really spending time on self, I&rsquo;ve thought about where I want to be and what I want to do.</p>
+
+<p>So there is this possibility of getting laid off. The economy sucks. There is so much gloom, doom, sadness.. I could wallow in the depths of it. I could hurt with the internal drama of a variety of situations.</p>
+
+<p>Not everyone is going to like you. Not everyone is going to agree with you. It doesn&rsquo;t matter. Believe in yourself, and believe in others. Believe the best, cherish your friends and loved ones, and do whatever it is that you feel driven to do.</p>
+
+<p>I feel happy. Things are good. I enjoy my job. I have a variety of friends and interests and life is <em>rich</em>.</p></blockquote>
+
+<p>These words still guide me. With time and experience I&rsquo;ve realized that it&rsquo;s important to share the experiences and my authentic feelings with people. Letting toxicity of experiences build up without an outlet impacted me in a way that was unhealthy impacting my health in a myriad of ways. I still choose the optimist lens; believing in me and believing in others. I am happy. Things are good. I enjoy my job. I have a variety of friends and interests and life is <em>rich</em>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sparkle Edition Washington DC Training]]></title>
+    <link href="http://iennae.github.io/blog/2015/07/20/sparkle-edition-washington-dc-training/"/>
+    <updated>2015-07-20T11:18:49-07:00</updated>
+    <id>http://iennae.github.io/blog/2015/07/20/sparkle-edition-washington-dc-training</id>
+    <content type="html"><![CDATA[<p>Since I&rsquo;m co-chairing the Devops track at Agile 2015 with <a href="http://www.ddegrandis.com/">Dominica DeGrandis</a>, I figured I&rsquo;d take the opportunity to meet more folks in the Washington DC area to see what kind of different challenges folks are facing with implementing Chef and Devops in general. One way I&rsquo;m doing this is an open invite for early edition <a href="http://www.coffeeops.org/">CoffeeOps</a>. I&rsquo;m also giving <a href="https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/">Chef Intermediate</a> on August 10-11 and <a href="https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/">Chef Fundamentals</a> on August 12-13.</p>
+
+<p>One thing that I really enjoy about Chef (the company) is that we make our <a href="https://www.chef.io/contact/open-training/">training materials</a> available to folks under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons license</a> that allows (even encourages) folks to share and adapt the content as long as appropriate credit and licensing is maintained. Every individual that does Chef training teaches a little bit differently in terms of style although the materials are exactly the same. The value in the training isn&rsquo;t the materials, but the conversations, interactions and space that is created by the actual class. Every class is completely different because the people going to the training are completely different.</p>
+
+<p>Private trainings (trainings for specific companies) are really interesting because we can have really deep discussions about specific topics (depending on time) and it&rsquo;s easier to get people in a collaborative mindset.</p>
+
+<p>Public trainings are also very interesting because I can encourage folks to cross the chasms between companies and share their individual challenges. I&rsquo;ve found that depending on the area that I&rsquo;m training, it can be harder to encourage folks to get into a collaborative mindset. (Shoutout to the trainings I did in Chicago where folks were 100% helpful. Extra kudos to Phaedra Evans and <a href="https://twitter.com/MarvinEStreet">Marvin Street</a> for going above and beyond in supporting their fellow students!)</p>
+
+<p>My goals when training are to create a safe place for folks to learn, share and build connections. All of our trainings fall under the Chef community <a href="https://docs.chef.io/community_guidelines.html">code of conduct</a>.</p>
+
+<p>In Fundamentals, my goals are to help folks understand the core concepts of chef, read cookbooks confidentally with an eye towards identifying good and bad patterns, write cookbooks, and debug issues that occur through understanding what&rsquo;s going on. In Intermediate, my goals are to help people to understand more about identifying good patterns in using chef through greater understanding of resources through writing lightweight resource and providers (LWRPs),  additional debugging skills, and basic testing while in the process of leveling up ruby skills.</p>
+
+<p>How do you know whether you are ready for <a href="https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/">Intermediate training</a>?</p>
+
+<ul>
+<li>Do you understand what happens when chef-client runs?</li>
+<li>Can you explain Chef terminology clearly without having to look it up? i.e. concepts like resource, recipe, cookbook, organizations, roles, environments</li>
+<li>Are you comfortable with your editor of choice and navigating the organization of a Chef cookbook?</li>
+<li>Do you have Chef DK installed on your workstation?</li>
+</ul>
+
+
+<p>A second thing that I really enjoy about Chef (the company) is the attention to diversity and inclusion measures. Earlier in the year we provided <a href="https://www.chef.io/blog/2015/03/05/apply-for-a-chefconf-2015-diversity-scholarship-by-march-13/">diversity scholarships to Chef Conf</a>. Additionally, we regularly provide training scholarships.</p>
+
+<p>I have a diversity training pass for <a href="https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/">Chef Fundamentals</a> on August 12-13. Training includes a continental breakfast, lunch, and an assortment of beverages. Please get in touch with me <a href="mailto:sigje@chef.io">sigje@chef.io</a> if you are available for the days of the class, have transportation to and from the class, have a wifi-enabled laptop, a SSH/SCP agent (OpenSSH, putty/WinSCP or equivalent), and a text editor, and most importantly have an interest in learning how to write infrastructure as code with Chef. Please provide the following information:</p>
+
+<ul>
+<li>Name</li>
+<li>Contact information</li>
+<li>Background</li>
+<li>Confirmation that you can attend Fundamentals training on August 12-13, 2015 at the MicroTek in Washington DC with a functional laptop.</li>
+</ul>
+
+
+<p>If you are interested, but feel you don&rsquo;t have the right skills please get in touch anyways. I will help you identify whether you are gauging your abilities correctly for this Fundamentals class, and also point you in the direction of resources that will help you get the right skills. One resource that is available to you right now is the <a href="http://learn.chef.io/">Learn Chef site</a> that will walk you through some of the initial concepts and prep your workstation to be ready for the class.</p>
+
+<p>I also have a sekret code &ldquo;HELLO-CHEF&rdquo; that will take 10% off both <a href="https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/">Chef Fundamentals</a> and <a href="https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/">Chef Intermediate</a>.</p>
+
+<p>ETA: Extra special code &ldquo;WDC20&rdquo; for 20% off both classes!</p>
+
+<p>The conference and training start early, so if you are an early person and are up for some <a href="http://www.coffeeops.org/">CoffeeOps</a> time in the DC area let me know!</p>
+
+<p>Sparkle On!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Starting a Local Coffeeops]]></title>
+    <link href="http://iennae.github.io/blog/2015/07/01/starting-a-local-coffeeops/"/>
+    <updated>2015-07-01T01:00:00-07:00</updated>
+    <id>http://iennae.github.io/blog/2015/07/01/starting-a-local-coffeeops</id>
+    <content type="html"><![CDATA[<p>A few years ago I met <a href="https://twitter.com/mariusducea">Marius Ducea</a> at <a href="http://www.chromaticcoffee.com/">Chromatic Coffee</a>. Afterwards reflecting on the time that I spent, I felt more enthusiastic about my work in the industry due to Marius being awesome and the mental engagement outside of the everyday.</p>
+
+<p>Marius has been a key <a href="http://www.devopsdays.org/events/2015-siliconvalley/">DevOpsDays Silicon Valley</a> organizer for years and community builder within the Chef and DevOps community. His insight into a variety of current and future technology was interesting and educational.</p>
+
+<p>The conversation allowed me to see beyond the perceived value of my role based on the the technology and cultural mores of my company, that &ldquo;ladder of prestige&rdquo; present in some organizations that ranks Operations staff lower than Engineering (and &ldquo;non-technical&rdquo; roles lowest of all). Being in the middle of my company&rsquo;s &ldquo;ladder of prestige&rdquo; led to a lot of pressure with little reward. I had been having problems seeing the value of the work I was doing or what impact it made.</p>
+
+<p>Talking to Marius gave me insight about what I was working on. It helped me recognize that I needed a change and that it was critical for my mental health to connect with a larger community of practitioners on a more regular basis. I envisioned creating a &ldquo;hallway track&rdquo; space with intra-company cooperation; affording individuals a place to meet together with no agenda, to connect and share in an undirected manner.</p>
+
+<p>Conferences have this informal hallway track; the conversations in conference corridors in between sessions and after hours. There are barriers to quality hallway track time: inclusiveness of the conference, costs of attendance and job flexibility.</p>
+
+<p>If a conference does not have a lot of diversity, and the attendees are very cliquish, this can lead to people feeling very isolated who aren&rsquo;t already established in the community. Conferences that have a code of conduct and make other efforts to be inclusive can help facilitate individuals participating in the hallway track. Additionally costs of attendance and job flexibility, may make the hallway track unavailable to a majority of people in the industry. Any specific conference may only last for a few days, why wait a whole year to get the benefits of the &ldquo;hallway track&rdquo;?</p>
+
+<p>I sent out a tweet with a location, time and #coffeeops and showed up. The first few times, only one or two folks would show up. As time passed more people joined and interesting discussions like <a href="https://medium.com/bridging-the-gaps/leveling-up-your-skills-51169238e0d7">leveling up your skills</a> were had. Years later, other folks have started up local coffeeops from <a href="http://www.meetup.com/Downtown-Seattle-Friday-Morning-CoffeeOps/">Seattle, Washington</a> to Sydney, Australia. I&rsquo;ve changed jobs, and as a remote employee at <a href="http://chef.io">Chef</a>, it has become even more valuable to me as water cooler time; that time to take a break and remember to breathe.</p>
+
+<p>It&rsquo;s also a place to share ideas in their nascent form allowing room for the ideas to grow to greatness through the contributions and challenges of the group. All of the folks attending CoffeeOps Santa Clara were critical in helping me shape my thoughts in the well-received <a href="http://livestream.com/devopsdaysorg/events/3044568/videos/52394934">&ldquo;Hero to Zero&rdquo;</a> talk on <a href="http://burnout.io/">burnout and &lsquo;heroic&rsquo; behaviors in the workplace</a>.</p>
+
+<p><a href="http://www.coffeeops.org/">Coffeeops</a> is a way to generate your own hallway track, cross company cooperation and individual improvement.</p>
+
+<h2>How do you start up a CoffeeOps?</h2>
+
+
+<ul>
+<li>Should you start a CoffeeOps? How much community do you already have? Are there people looking for the same kind of outlet? Is there already something filling the gap? What is the density of people in your area? Do you have the time and energy to expend if this is completely new in your area?</li>
+<li>Be patient, it takes time to catch hold.</li>
+<li>It&rsquo;s important to be welcoming, encouraging inclusivity as new people join.</li>
+<li>Talk about it. Ask for help. Use twitter and mailing lists.</li>
+<li>Pick a good environment for talking.</li>
+<li>Have coffee and show up. More people will show up over time. (You can also drink tea or cocoa or have brunch!)</li>
+<li>When starting out don&rsquo;t get too bogged down by formalities of rules and procedures. Code of Conduct is important. Any other aspect is open for discussion based on the group of people that come together. Some folks will make the decision to come based on an agenda. Others will be more likely to come if it&rsquo;s more freeform as they deal with other obligations before heading over.</li>
+</ul>
+
+
+<p>Shout out to all the Slack CoffeeOps folks who helped me polish my thoughts here, and for the introduction to <a href="http://www.gouletpens.com/ink-drop">Ink Drop</a> to help me in my quest for awesome ink.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Uniball Jetstream]]></title>
+    <link href="http://iennae.github.io/blog/2015/01/23/uniball-jetstream/"/>
+    <updated>2015-01-23T12:49:59-08:00</updated>
+    <id>http://iennae.github.io/blog/2015/01/23/uniball-jetstream</id>
+    <content type="html"><![CDATA[<p>I purchased a set of 3 Uniball Jetstream RT 0.7 mm black ink in January of 2014. The first thing I noticed was the length of the pen was significantly shorter from the Safari that I&rsquo;ve been using. It will take some time before I can tell whether this is actually a problem or just a difference.</p>
+
+<p>The ink definitely dries quickly. I can&rsquo;t see how someone could smudge this unless the paper was somewhat wet already.</p>
+
+<p>On moleskin paper, it was more readily stuttering where ink seemed to stop.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Examing Writing]]></title>
+    <link href="http://iennae.github.io/blog/2015/01/23/examing-writing/"/>
+    <updated>2015-01-23T11:55:55-08:00</updated>
+    <id>http://iennae.github.io/blog/2015/01/23/examing-writing</id>
+    <content type="html"><![CDATA[<p>As a supporter of the <a href="http://www.thesparknotebook.com/">spark notebook</a> kickstarter, I&rsquo;m eagerly looking forward to the &ldquo;perfect&rdquo; notebook. I find the act of writing notes much more helpful to organizing my thoughts than typing in to a computer most of the time. The challenge is finding the right combination of paper, pen, and ink. When everything is in balance, the flow of thoughts is seamless. There is no thoughts blocked as the pen dribbles, sticks, or stutters across the page. Ink flows in a seamless concert without the fear of smearing as I pause and withdraw inwards to reflect.</p>
+
+<p>When Kate Matsudaira blogged about the search for the <a href="https://popforms.com/notebooks-fall-short/">perfect notebook</a> it resonated with me for many reasons. The deconstruction of the problems of the many notebooks she examined illuminated an important process that I hadn&rsquo;t thought through before especially around keeping track of what works, why, and how it could be better. I don&rsquo;t think there is a &ldquo;one&rdquo; perfect notebook, but I think the <a href="http://www.thesparknotebook.com/">spark notebook</a> is perfect for organization of goals, time keeping and the &ldquo;big&rdquo; ideas in daily work life.</p>
+
+<p>When the spark notebook delivery email came out, I realized that I wanted to know more about the writing utensils people use and prefer to write with. I tweeted out and the twitterverse responded.</p>
+
+<blockquote class="twitter-tweet" lang="en"><p>what is the recommended pen to use with my soon to be here perfect notebook :) <a href="https://twitter.com/katemats">@katemats</a></p>&mdash; Jennifer (@sigje) <a href="https://twitter.com/sigje/status/558101746208493568">January 22, 2015</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>Generally I try pens out and then forget what worked and didn&rsquo;t. So I&rsquo;m going to try out some of the suggestions and share my experiences.</p>
+
+<p><strong> Lamy Safari Fountain Pen </strong></p>
+
+<p>Back in April 2014 at Chef Conf, <a href="https://twitter.com/isafarnik">@isafarnik</a> let me borrow his Lamy Safari. It flowed, was a great width for me in my hand and wrote nicely in my moleskin.</p>
+
+<p>I purchased the <a href="http://www.amazon.com/gp/product/B0002T401Y/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0002T401Y&linkCode=as2&tag=sigjesspace-20&linkId=VD7GXIAUV7QRUYMT">Lamy Safari Charcoal Fountain Pen</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=sigjesspace-20&l=as2&o=1&a=B0002T401Y" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> (along with a second blue one) and it&rsquo;s been my go to pen since then.</p>
+
+<p>I also have tried out different ink with the <a href="http://www.amazon.com/gp/product/B0019W4EIW/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0019W4EIW&linkCode=as2&tag=sigjesspace-20&linkId=VWI4SOYVWBXFKCGT">Lamy Safari Converter Z24</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=sigjesspace-20&l=as2&o=1&a=B0019W4EIW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> and <a href="http://www.amazon.com/gp/product/B00BZ28JDW/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00BZ28JDW&linkCode=as2&tag=sigjesspace-20&linkId=VBG3ZQMCTOPX2SXP">Lamy Refills by Monteverde Rainbow Fountain Pen Cartridge</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=sigjesspace-20&l=as2&o=1&a=B00BZ28JDW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.</p>
+
+<p>In the converter cartridge, I used <a href="http://www.amazon.com/gp/product/B000WJAJQ4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000WJAJQ4&linkCode=as2&tag=sigjesspace-20&linkId=3MYQARAGEZLVGZ5X">Noodlers Polar Blue Eternal Ink</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=sigjesspace-20&l=as2&o=1&a=B000WJAJQ4" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />.</p>
+
+<p><strong>The good</strong>:</p>
+
+<ul>
+<li>Pen is a great width for my hand.</li>
+<li>Ink flows easily.</li>
+<li>My handwriting is improved just from feeling like I&rsquo;m writing with something substantial.</li>
+<li>The Lamy ink and the Noodlers Polar Blue ink are great colors.</li>
+</ul>
+
+
+<p><strong>The problems</strong>:</p>
+
+<p><strong><em> The Ink </em></strong></p>
+
+<ul>
+<li>The ink can smear if touched right after, so if I pause or am writing too quickly &ndash; smudge.</li>
+<li>The ink bleeds through on most papers. I received the &ldquo;perfect&rdquo; notebook at a conference that did NOT which was amazing (yay for conference swag of good notebooks!). A notebook I got from a Google event has also been great. It works &ldquo;ok&rdquo; in moleskin notebooks.</li>
+<li>The Monteverde Rainbow ink has some not great colors. I should have figured out what maps to what, but for example the red wasn&rsquo;t RED, and the color I&rsquo;m currently trying out is a murky brown.</li>
+</ul>
+
+
+<p>Due to the first problem, I tend to write a bit differently filling in the top of the back and front of facing pages and then filling in below.</p>
+
+<p><strong><em> The Pen </em></strong></p>
+
+<p>I don&rsquo;t really pay attention too much to the fact that I get ink all over me most of the time. I&rsquo;ve noticed this with most pens. I noticed that my blue Lamy was more messy than the black pen. After examining the nib closely I think that there might actually be a defect in the nib. <a href="http://www.reddit.com/r/fountainpens/comments/1uhn2t/really_bad_ink_creep_on_lamy_safari/">When I did some google searches</a> which led me to <a href="http://www.richardspens.com/?page=ref/ttp/creeps.htm">A case of the Creeps</a>. So it could be a mixmatch between the ink and the nib (which is why I purchased the different ink to try out). Essentially, I need to find a &ldquo;less wet&rdquo; ink to try out with the safari to see whether the experience changes.</p>
+
+<p>In future posts, I&rsquo;ll take a look at the Unball JetStream, Bic Atlantis, PaperMate InkJoy, Uniball Signo 207, and Le Pens.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Tips to Myself]]></title>
+    <link href="http://iennae.github.io/blog/2015/01/04/octopress-tips-to-myself/"/>
+    <updated>2015-01-04T00:20:00-08:00</updated>
+    <id>http://iennae.github.io/blog/2015/01/04/octopress-tips-to-myself</id>
+    <content type="html"><![CDATA[<p>When building from source to add new posts.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git clone git@github.com:REPO
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>REPO
+</span><span class='line'><span class="nv">$ </span>git checkout -b <span class="nb">source </span>origin/source
+</span><span class='line'><span class="nv">$ </span>git clone git@github.com:iennae/iennae.github.io.git _deploy
+</span><span class='line'><span class="nv">$ </span>rake new_post<span class="o">[</span><span class="s2">&quot;TITLE&quot;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Write blog entry.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rake generate
+</span><span class='line'><span class="nv">$ </span>rake deploy
+</span><span class='line'><span class="nv">$ </span>git add .
+</span><span class='line'><span class="nv">$ </span>git commit -m <span class="s1">&#39;MESSAGE&#39;</span>
+</span><span class='line'><span class="nv">$ </span>git push origin <span class="nb">source</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>For zsh issues for <a href="https://github.com/imathis/octopress/issues/117">rake new_post</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Hike of 2015: Nisene Marks SP]]></title>
