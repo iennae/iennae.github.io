@@ -4,7 +4,7 @@
   <title><![CDATA[SIGJE]]></title>
   <link href="http://iennae.github.io/atom.xml" rel="self"/>
   <link href="http://iennae.github.io/"/>
-  <updated>2015-07-27T00:11:00-07:00</updated>
+  <updated>2015-07-27T11:11:21-07:00</updated>
   <id>http://iennae.github.io/</id>
   <author>
     <name><![CDATA[Jennifer Davis]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[DevOpsDays SV Idea Generation Event]]></title>
+    <link href="http://iennae.github.io/blog/2015/07/27/devopsdays-sv-idea-generation-event/"/>
+    <updated>2015-07-27T10:36:02-07:00</updated>
+    <id>http://iennae.github.io/blog/2015/07/27/devopsdays-sv-idea-generation-event</id>
+    <content type="html"><![CDATA[<p><a href="http://www.devopsdays.org/events/2015-siliconvalley/">DevOpsDays Silicon Valley</a> is coming up November 6 - 7, 2015. I&rsquo;m one of the organizers who are helping make this event happen. As with all DevOpsDays events we value diversity and inclusivity as we come together and share our stories. We value the participation of each member of the DevOps community and want all attendees to have an enjoyable and fulfilling experience. DevOpsDays Silicon Valley has a <a href="http://www.devopsdays.org/events/2015-siliconvalley/conduct/">Code of Conduct</a> as used by previous DevOpsDays.</p>
+
+<p>We want to hear from you! Your view and experiences in enterprise or startup, security, database design and administration, development, operations, community management and more have value in improving the ecosystem, informing others of how to build strong resilient teams in a sustainable manner while getting work done. The CFP for <a href="http://www.devopsdays.org/events/2015-siliconvalley/propose/">DevOpsDays Silicon Valley</a> is currently open until September 30.</p>
+
+<p>Taking off my &ldquo;DevOpsDays SV&rdquo; organizer hat, and putting on my &ldquo;Community Builder&rdquo; hat, to help encourage folks who have thought about speaking but are not sure about their ideas, and provide a space for folks who aren&rsquo;t interested in speaking but want to participate in the process of building a great local conference, I&rsquo;ve organized a special edition CoffeeOps event for DevOpsDays Idea generation at <a href="http://www.yelp.com/biz/crema-coffee-roasting-co-san-jose">Crema Coffee Roasting Company</a> in San Jose on July 28, 2015 at 7pm.</p>
+
+<p><strong>More information about DevOpsDays Silicon Valley</strong></p>
+
+<p><strong>DODSV 2015 Dates</strong></p>
+
+<ul>
+<li>Call for Proposal closes September 30, 2015</li>
+<li>Schedule announced October 7, 2015</li>
+<li>DevOpsDays Silicon Valley November 6-7, 2015</li>
+</ul>
+
+
+<p><strong>Conference Details</strong></p>
+
+<p>DevOpsDays Silicon Valley is returning to the <a href="http://www.computerhistory.org/">Computer History Museum</a> in Mountain View.</p>
+
+<p>We are expecting approximately 510 attendees.</p>
+
+<p><strong>Speaking Details</strong></p>
+
+<p>Most talks will be 30 minutes; auto-advancing Ignites are 5 minutes.</p>
+
+<p><strong>Looking for ideas?</strong></p>
+
+<p>Can&rsquo;t make the meeting and looking for ideas? Take a look at our previous DevOpsDays events in <a href="http://www.devopsdays.org/events/2013-mountainview/program/">2013</a> and <a href="http://www.devopsdays.org/events/2014-siliconvalley/program/">2014</a>.</p>
+
+<p>We are looking for fresh, current and unique talks that target a wide range of skill levels from beginner to experts on technology, culture, and community.</p>
+
+<p><strong>Speaker Benefits</strong></p>
+
+<p>All accepted speakers will receive a ticket to DevOpsDays Silicon Valley, including all meals.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Working With Gists Within Sublime]]></title>
