@@ -7,7 +7,7 @@ categories:
 ---
 
 **tl;dr CoffeeOps - DevOpsDays Idea Generation <br>
-July 28, 2015 7:00 PM to 9:00 PM at Crema Coffee Roasting Company <br>
+July 28, 2015 7:00 PM to 9:00 PM at Crema Coffee Roasting Company](http://www.yelp.com/biz/crema-coffee-roasting-co-san-jose) <br>
 950 The Alameda, San Jose, California**<br>
 
 [DevOpsDays Silicon Valley](http://www.devopsdays.org/events/2015-siliconvalley/) is coming up November 6 - 7, 2015. I'm one of the DevOpsDays Silicon Valley organizers. As with all DevOpsDays events we value diversity and inclusivity as we come together and share our stories. We value the participation of each member of the DevOps community and want all attendees to have an enjoyable and fulfilling experience. DevOpsDays Silicon Valley has a [Code of Conduct](http://www.devopsdays.org/events/2015-siliconvalley/conduct/) as used by previous DevOpsDays. 
