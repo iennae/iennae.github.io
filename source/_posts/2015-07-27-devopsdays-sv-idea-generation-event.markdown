@@ -7,7 +7,7 @@ categories:
 ---
 
 
-[DevOpsDays Silicon Valley](http://www.devopsdays.org/events/2015-siliconvalley/) is coming up November 6 - 7, 2015. I'm one of the organizers who are helping make this event happen. As with all DevOpsDays events we value diversity and inclusivity as we come together and share our stories. We value the participation of each member of the DevOps community and want all attendees to have an enjoyable and fulfilling experience. DevOpsDays Silicon Valley has a [Code of Conduct](http://www.devopsdays.org/events/2015-siliconvalley/conduct/) as used by previous DevOpsDays. 
+[DevOpsDays Silicon Valley](http://www.devopsdays.org/events/2015-siliconvalley/) is coming up November 6 - 7, 2015. I'm one of the DevOpsDays Silicon Valley organizers. As with all DevOpsDays events we value diversity and inclusivity as we come together and share our stories. We value the participation of each member of the DevOps community and want all attendees to have an enjoyable and fulfilling experience. DevOpsDays Silicon Valley has a [Code of Conduct](http://www.devopsdays.org/events/2015-siliconvalley/conduct/) as used by previous DevOpsDays. 
 
 We want to hear from you! Your view and experiences in enterprise or startup, security, database design and administration, development, operations, community management and more have value in improving the ecosystem, informing others of how to build strong resilient teams in a sustainable manner while getting work done. The CFP for [DevOpsDays Silicon Valley](http://www.devopsdays.org/events/2015-siliconvalley/propose/) is currently open until September 30. 
 
