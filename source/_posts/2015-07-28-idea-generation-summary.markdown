@@ -10,7 +10,7 @@ Today we had a CoffeeOps DevOpsDays Silicon Valley [Idea Generation event](http:
 
 We started off in normal SV CoffeeOps style chatting around topics. We then took a look at the [current proposals](http://www.devopsdays.org/events/2015-siliconvalley/proposals/), reading off the titles to prime the creativity pump. I had everyone take 5 minutes to just think about their feels and any ideas. Everyone wanted to start writing so I pushed a little on that. We ended up only "thinking" for 3 minutes. 
 
-Then, for 5 minutes we used postits to write down thoughts for ideas, 1 idea per postit. If you want to host an event like this yourself, figure out what works for your group. The most important items is that everyone gets primed through some mechanism, the process is explained with supporting tools as needed (whiteboard, postits, etc), and everyone gets the opportunity to share. 
+Then, for 5 minutes we used postits to write down ideas, 1 idea per postit. If you want to host an event like this yourself, figure out what works for your group. The most important items is that everyone gets primed through some mechanism, the process is explained with supporting tools as needed (whiteboard, postits, etc), and everyone gets the opportunity to share. 
 
 Because I know the folks who showed, I forgot to explicitly express "This is a safe space with no stupid ideas". Sometimes I go so far as to say "stupid" is banned. This is really important to level set expectations around communicating within a group setting especially with folks who may not know each other well.
 
