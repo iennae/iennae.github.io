@@ -12,7 +12,7 @@ We started off in normal SV CoffeeOps style chatting around topics. We then took
 
 Then, for 5 minutes we used postits to write down thoughts for ideas, 1 idea per postit. If you want to host an event like this yourself, figure out what works for your group. The most important items is that everyone gets primed through some mechanism, the process is explained with supporting tools as needed (whiteboard, postits, etc), and everyone gets the opportunity to share. 
 
-One thing I forgot to say today explicitly because I know the folks who were participating but that is critical to express is that it's a safe space and that there are "no stupid ideas". Sometimes I go so far as to say "stupid" is banned. 
+Because I know the folks who showed, I forgot to explicitly express "This is a safe space with no stupid ideas". Sometimes I go so far as to say "stupid" is banned. This is really important to level set expectations around communicating within a group setting especially with folks who may not know each other well.
 
 Since we were a small group, I changed up the format from Chef Summit, and we each shared an idea and then discussed the ideas for that round. Time flew by so quickly that we didn't get a chance to brainstorm through all of the ideas. 
 
