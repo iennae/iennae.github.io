@@ -8,7 +8,7 @@ categories:
 
 Today we had a CoffeeOps DevOpsDays Silicon Valley [Idea Generation event](http://www.jendavis.org/blog/2015/07/27/devopsdays-sv-idea-generation-event/), and I had a ton of fun. I led an [Open Space at Chef Summit](https://github.com/chef/chef-summit-2014/wiki/find-your-voice) last year which included an idea generation exercise and I followed that format.
 
-We started off in normal SV CoffeeOps style chatting around topics. We then took a look at the [current proposals](http://www.devopsdays.org/events/2015-siliconvalley/proposals/), reading off the titles to prime the pump. I had everyone take 5 minutes to just think about their feels and any ideas. Everyone wanted to start writing so I pushed a little on that. We ended up only "thinking" for 3 minutes. 
+We started off in normal SV CoffeeOps style chatting around topics. We then took a look at the [current proposals](http://www.devopsdays.org/events/2015-siliconvalley/proposals/), reading off the titles to prime the creativity pump. I had everyone take 5 minutes to just think about their feels and any ideas. Everyone wanted to start writing so I pushed a little on that. We ended up only "thinking" for 3 minutes. 
 
 Then, for 5 minutes we used postits to write down thoughts for ideas, 1 idea per postit. If you want to host an event like this yourself, figure out what works for your group. The most important items is that everyone gets primed through some mechanism, the process is explained with supporting tools as needed (whiteboard, postits, etc), and everyone gets the opportunity to share. 
 
