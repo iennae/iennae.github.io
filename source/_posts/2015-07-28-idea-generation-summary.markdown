@@ -16,7 +16,7 @@ Because I know the folks who showed, I forgot to explicitly express "This is a s
 
 Since we were a small group, I changed up the format from Chef Summit, and we each shared an idea and then discussed the ideas for that round. Time flew by so quickly that we didn't get a chance to brainstorm through all of the ideas. 
 
-I did take a few minutes at the end to share Julie Gunderson's [Embracing My Sparkle](https://www.youtube.com/watch?v=v5yZXjBixys) Ignite. We had gotten in a discussion about what can be shared in 5 minutes. My feeling is that an effective ignite means that you distill down your content to the most essential. You might not say everything you feel on a topic, but you say enough to start the conversation.
+I did take a few minutes at the end to share Julie Gunderson's [Embracing My Sparkle](https://www.youtube.com/watch?v=v5yZXjBixys) Ignite. We had gotten in a discussion about what can be shared in 5 minutes. My feeling is that an effective ignite means that you distill down your content to the most essential. You might not say everything you feel on a topic, but you say enough to start conversations.
 
 With the permission of my fellow attendees, I'm sharing some of the [talk ideas](https://docs.google.com/spreadsheets/d/1d_bwz1Rfr6LNYOv6zK51DwZMtmHjV1vldbmty-CxAA8/edit?usp=sharing) that we came up with. If you are interested in adding your own, taking one of these and expanding on it, please do. 
 
