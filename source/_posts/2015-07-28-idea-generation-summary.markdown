@@ -26,9 +26,9 @@ Note, that these are potential topics, not necessarily titles.
 
 As a location, [Crema Coffee Roasting Company](http://www.yelp.com/biz/crema-coffee-roasting-co-san-jose) has a great space, delicious beverages, gelato and friendly staff. I totally encourage folks in the South Bay to consider it as an option to do these kind of small group events.
 
-By the way, if you have the opportunity you should totally go to [Chef Community Summit](https://www.chef.io/summit/). It's much smaller than Chef Conference, allowing for a lot more deep dives on subjects from training to community building, from developing for a specific product, to learning to contribute as a new person in a community. There is one in Seattle and one in London this year. 
-
 **About the Chef Summit** 
+
+By the way, if you have the opportunity you should totally go to [Chef Community Summit](https://www.chef.io/summit/). It's much smaller than Chef Conference, allowing for deep dives on subjects from training to community building, from developing for a specific product, to learning to contribute as a new person in a community. There is one in Seattle and one in London this year. 
 
 While the [Chef Summit](https://www.chef.io/summit/seattle/) does give people the opportunity to connect with Chef engineers, more importantly it gives people the opportunity to connect with one another. A key pillar of [_Effective Devops_](http://shop.oreilly.com/product/0636920039846.do) is affinity; the strength of relationships between individuals, teams, organizations, and even companies. Within the context of describing work, it is generally broken down into 4 categories: reactionary, planning, procedural, and problem solving. I think there is fifth category that is often overlooked: relationship work. 
 
