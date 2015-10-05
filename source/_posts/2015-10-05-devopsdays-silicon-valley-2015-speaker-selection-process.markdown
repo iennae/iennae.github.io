@@ -43,7 +43,7 @@ Once the more than 100 proposals were input into Judy, and the CFP closed, all r
 
 A week after the CFP proposal closing, we met to plan the program. We did a scan for any anonymized proposals that hadn't received as many reviews based on the convenient mode sorting in Judy, and verified whether any of them should be included. This was an important step as we did find a few proposals were higher ranked once we came together as a group. We took the top 30 talks based on ranking and unanonymized them. 
 
-Overall the general anonymized ranking process worked to generate a diverse set of speakers. In the next few days we'll be announcing the program. I'm pretty excited to share and get your feedback! I'd love to hear some ideas on measuring "viability", metrics to collect during and after the conference to help provide improve the selection process.
+Overall the general anonymized ranking process worked to generate a diverse set of speakers. In the next few days we'll be announcing the program. I'm pretty excited to share and get your feedback! I'd love to hear some ideas on measuring "viability", metrics to collect during and after the conference to help improve future selection processes.
 
 There are definitely some problems around how we selected proposals. For now, I'll share 3 of the problems uncovered.
 
