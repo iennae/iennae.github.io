@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-Earlier in the year I mentioned wanting to write up a blog post on my talk selection process. This isn't that blog post. Instead I'm going to share a behind the scenes for the DevOpsDays Silicon Valley 2015 speaker selection process. The process for creating a viable program is _hard_. 
+Earlier in the year, I mentioned wanting to write up a blog post on my talk selection process. This isn't that blog post. Instead I'm going to share a behind the scenes for the DevOpsDays Silicon Valley 2015 speaker selection process. The process for creating a viable program is _hard_. 
 
 Viable is the right word for so many reasons when it comes to a DevOpsDays event. 
 
@@ -21,9 +21,9 @@ Speakers, whether 30 minute sessions or 5 minute ignites _seed_ the conference p
 * Whenever it starts is the right time,
 * When a session is over, it's over.
 
-Every participant of DevOpsDays is ok to leave an Open Space when they are no longer engaged or continue discussing a topic if it's not over. Participation is about engagement and speaking up when it feels right for the individual.  
+Every participant of DevOpsDays is ok to leave an Open Space when they are no longer engaged or continue discussing a topic if it's not over (even if the schedule says it's over. Just be respectful to the group interested in the next topic and move the discussion if necessary). Participation is about engagement and speaking up when it feels right for the individual.  
 
-So when it comes to speaker selection, we are looking not just for charismatic diverse speakers but topics that will encourage discussions. How do we do this, and not allow our unconcious (or concious) biases get in the way? How do we uncover those new voices that will bring topics that we don't even know we need to consider, or bring new perspective to problems that we think are solved? I'm not going to go into ensuring you have enough proposals here, instead I'm going to focus on the selection process of the available proposals.
+So when it comes to speaker selection, we are looking for charismatic diverse speakers AND topics that will encourage discussions. How do we do this, and not allow our unconcious (or concious) biases get in the way? How do we uncover those new voices that will bring topics that we don't even know we need to consider, or bring new perspective to problems that we think are solved? I'm not going to go into ensuring you have enough proposals here, instead I'm going to focus on the selection process of the available proposals.
 
 The TL;DR; is:
 
@@ -33,7 +33,7 @@ The TL;DR; is:
 * Rank proposals based on rating, unanonymize and take the top 30 talks. 
 * Discuss, re-rank as necessary and plan program.
 
-After proposals are emailed to the list, [Peter Mooshammer](https://twitter.com/pmoosh), DevOpsDays Organizer anonymized proposals for the website as well as for [Judy](https://github.com/obfuscurity/judy), the tool we chose to use for our first round of ranking talks. Anonymizing is hard work because it was a very manual process. Removing company and personally identifying information. Next year we need to come up with a better way to do this. Thanks Peter for taking the time and effort to anonymize!
+After proposals are emailed to the list, [Peter Mooshammer](https://twitter.com/pmoosh), one of the Silicon Valley DevOpsDays Organizers, anonymized proposals for the website as well as for [Judy](https://github.com/obfuscurity/judy), the tool we chose to use for our first round of ranking talks. Anonymizing is hard work because it was a very manual process. Removing company and personally identifying information. Next year we need to come up with a better way to do this. Thanks Peter for taking the time and effort to anonymize!
 
 Thanks to Jason Dixon for sharing [Judy](https://github.com/obfuscurity/judy) and making it easy to setup which allows organizers to collect abstracts in one place, read abstracts in a common format, rate talks, and provide a way to analyze ratings. 
 
@@ -43,13 +43,13 @@ Once the more than 100 proposals were input into Judy, and the CFP closed, all r
 
 A week after the CFP proposal closing, we met to plan the program. We did a scan for any anonymized proposals that hadn't received as many reviews based on the convenient mode sorting in Judy, and verified whether any of them should be included. This was an important step as we did find a few proposals were higher ranked once we came together as a group. We took the top 30 talks based on ranking and unanonymized them. 
 
-Overall the general anonymized ranking process worked to generate a diverse set of speakers. In the next few days we'll be announcing the program. I'm pretty excited to share and get your feedback!
+Overall the general anonymized ranking process worked to generate a diverse set of speakers. In the next few days we'll be announcing the program. I'm pretty excited to share and get your feedback! I'd love to hear some ideas on measuring "viability", metrics to collect during and after the conference to help provide improve the selection process.
 
 There are definitely some problems around how we selected proposals. For now, I'll share 3 of the problems uncovered.
 
 One problem is that it biases us towards well written proposals. One mechanism that helps with this problem, is the Agile Conf's process of opening up CFPs and providing coaching as part of the process. Speakers can choose whether they want to have feedback for their proposal before submitting it. A direct submission portal for speakers into Judy that allowed staging proposals before commiting to the proposal would help with this.
 
-A second problem is that we didn't allocate enough time to review proposals allowing for additional input on our individual rankings. Even with adjusting the CFP (separate issues with this to come in a later blog post), we didn't have enough time to meet as a group multiple times. I saw how throughout the meeting, we discussed proposals and this changed how we perceived some of the proposals. One method of solving this problem is to pair over proposal review. Different perspectives help us recognize value. 
+A second problem is that we didn't allocate enough time to review proposals allowing for additional input on our individual rankings. Even with adjusting the CFP (separate issues with this to come in a later blog post), we didn't have enough time to meet as a group multiple times. I saw how throughout the meeting, we discussed proposals and this changed how we perceived some of the proposals. One method of solving this problem is to pair over proposal review. Different perspectives helped us recognize value. 
 
 A third problem was managing multiple systems of entry. [Peter](https://twitter.com/pmoosh) and I coordinated to make sure we included all proposals, even so a proposal ended up being missed. We caught it before the selection period, but this took time and added stress.  It wasn't easy to "un-anonymize" submissions, notify speakers of acceptance, receive acceptances from speakers, notify individuals who had not been accepted, coordinate to the website for program listing, or provide a way for speakers to easily update information if needed. This is a problem that definitely could use some improved automation.
 
