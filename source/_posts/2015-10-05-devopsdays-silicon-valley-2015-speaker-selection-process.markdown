@@ -53,6 +53,6 @@ A second problem is that we didn't allocate enough time to review proposals allo
 
 A third problem was managing multiple systems of entry. [Peter](https://twitter.com/pmoosh) and I coordinated to make sure we included all proposals, even so a proposal ended up being missed. We caught it before the selection period, but this took time and added stress.  It wasn't easy to "un-anonymize" submissions, notify speakers of acceptance, receive acceptances from speakers, notify individuals who had not been accepted, coordinate to the website for program listing, or provide a way for speakers to easily update information if needed. This is a problem that definitely could use some improved automation.
 
-Further blog posts to come on observations and improvements on conference organization.
+I hope this peek behind the curtain has been helpful. Further blog posts to come on observations and improvements on conference organization.
 
 Thanks [Peter Nealon](https://twitter.com/peternealon) for being my beta reader!
