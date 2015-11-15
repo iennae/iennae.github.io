@@ -9,7 +9,15 @@
   <meta name="author" content="Jennifer Davis">
 
   
-  <meta name="description" content="A little over seven years ago I was starting a new job. At the time I was 3 years into a health journey and had a goal of doing 25 hikes in 1 year. &hellip;">
+  <meta name="description" content="When building from source to add new posts. 1
+2
+3
+4
+5
+$ git clone git@github.com:REPO
+$ cd REPO
+$ git checkout -b source origin/source
+$ git clone &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -83,6 +91,65 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2015/01/04/octopress-tips-to-myself/">Octopress Tips to Myself</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-04T00:20:00-08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>12:20 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>When building from source to add new posts.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git clone git@github.com:REPO
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>REPO
+</span><span class='line'><span class="nv">$ </span>git checkout -b <span class="nb">source </span>origin/source
+</span><span class='line'><span class="nv">$ </span>git clone git@github.com:iennae/iennae.github.io.git _deploy
+</span><span class='line'><span class="nv">$ </span>rake new_post<span class="o">[</span><span class="s2">&quot;TITLE&quot;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Write blog entry.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>rake generate
+</span><span class='line'><span class="nv">$ </span>rake deploy
+</span><span class='line'><span class="nv">$ </span>git add .
+</span><span class='line'><span class="nv">$ </span>git commit -m <span class="s1">&#39;MESSAGE&#39;</span>
+</span><span class='line'><span class="nv">$ </span>git push origin <span class="nb">source</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>For zsh issues for <a href="https://github.com/imathis/octopress/issues/117">rake new_post</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2015/01/03/first-hike-of-2015-nisene-marks-sp/">First Hike of 2015: Nisene Marks SP</a></h1>
     
     
@@ -142,6 +209,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/11/14/devopsdays-silicon-valley-welcome/">DevOpsDays Silicon Valley Welcome</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/10/05/devopsdays-silicon-valley-2015-speaker-selection-process/">DevOpsDays Silicon Valley 2015 Speaker Selection Process</a>
       </li>
     
@@ -155,10 +226,6 @@
     
       <li class="post">
         <a href="/blog/2015/07/26/working-with-gists-within-sublime/">Working With Gists Within Sublime</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/23/diversity-in-lens-optimism/">Diversity in Lens - Optimism</a>
       </li>
     
   </ul>
