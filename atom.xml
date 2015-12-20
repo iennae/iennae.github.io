@@ -4,7 +4,7 @@
   <title><![CDATA[SIGJE]]></title>
   <link href="http://iennae.github.io/atom.xml" rel="self"/>
   <link href="http://iennae.github.io/"/>
-  <updated>2015-12-04T19:31:57-08:00</updated>
+  <updated>2015-12-19T23:44:48-08:00</updated>
   <id>http://iennae.github.io/</id>
   <author>
     <name><![CDATA[Jennifer Davis]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Adventures in Django With OpsWorks and Chef]]></title>
+    <link href="http://iennae.github.io/blog/2015/12/04/adventures-in-django-with-opsworks-and-chef/"/>
+    <updated>2015-12-04T23:34:07-08:00</updated>
+    <id>http://iennae.github.io/blog/2015/12/04/adventures-in-django-with-opsworks-and-chef</id>
+    <content type="html"><![CDATA[<p>Recently I had the opportunity to work with the new released <a href="http://blogs.aws.amazon.com/application-management/post/Tx1T5HNA1TSU8NH/AWS-OpsWorks-Now-Supports-Chef-12-for-Linux">OpsWorks Chef 12 for Linux</a>. I wrote up a process to deploy Django with the <a href="https://supermarket.chef.io/cookbooks/application_python">application_python</a> cookbook walking through a sample deploy.</p>
+
+<p>I learned quite a bit of Django in the process and found some great resources in the process. The following is just a snippet of that information.</p>
+
+<h2>Django Terminology</h2>
+
+<p>Django is a free and open source web application framework written in Python.</p>
+
+<p>Web application frameworks provide a set of components that are common across applications allowing an individual to speed up development and deployment of a web application. Functionality like user authentication and authorization, forms, file management, are some examples of these common components. These frameworks exist to speed up delivery so that you don&rsquo;t have to reinvent the wheel each time you want to create a site.</p>
+
+<p>Within Django, an app is a Web application that does something, for example a poll app. Within Django, a project is a collection of apps and configurations. An app can be in multiple projects.</p>
+
+<p>Django follows the MVC(Model View Controller) architectural pattern. In the MVC architectural pattern, the model handls all the data and business logic, the view presents data to the user in the supported format and layout, and the controller receives the requests (HTTP GET or POST for example), coordinates, and calls the appropriate resources to carry them out.</p>
+
+<p>When creating a web application, we generally create a set of controllers, models, and views. The reason that it uses this pattern is to provide some separation between the presentation (what the user sees) and the application logic.</p>
+
+<p>In Django, the view pattern is implemented through an abstraction called a template and the controller pattern is implemented through an abstraction called a view.</p>
+
+<h2>Further Resources</h2>
+
+<ul>
+<li><a href="https://code.djangoproject.com/wiki/DjangoResources">Django Resources</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-centos-7">Django Digital Ocean tutorial</a></li>
+<li><a href="http://python-deploy-framework.readthedocs.org/en/latest/pages/django-deployment.html">Deploying a Django application tutorial</a></li>
+<li><a href="http://dpaste.readthedocs.org/en/latest/integration.html">Dpaste docs</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Examining Tools With a Devops Lens]]></title>

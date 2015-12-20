@@ -9,7 +9,7 @@
   <meta name="author" content="Jennifer Davis">
 
   
-  <meta name="description" content="Please enjoy my Sysadvent offering for 2015. Over the last few years I have had the opportunity to attend a variety of conferences, meeting people &hellip;">
+  <meta name="description" content="Recently I had the opportunity to work with the new released OpsWorks Chef 12 for Linux. I wrote up a process to deploy Django with the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +77,61 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/12/04/adventures-in-django-with-opsworks-and-chef/">Adventures in Django With OpsWorks and Chef</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-12-04T23:34:07-08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>4</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:34 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Recently I had the opportunity to work with the new released <a href="http://blogs.aws.amazon.com/application-management/post/Tx1T5HNA1TSU8NH/AWS-OpsWorks-Now-Supports-Chef-12-for-Linux">OpsWorks Chef 12 for Linux</a>. I wrote up a process to deploy Django with the <a href="https://supermarket.chef.io/cookbooks/application_python">application_python</a> cookbook walking through a sample deploy.</p>
+
+<p>I learned quite a bit of Django in the process and found some great resources in the process. The following is just a snippet of that information.</p>
+
+<h2>Django Terminology</h2>
+
+<p>Django is a free and open source web application framework written in Python.</p>
+
+<p>Web application frameworks provide a set of components that are common across applications allowing an individual to speed up development and deployment of a web application. Functionality like user authentication and authorization, forms, file management, are some examples of these common components. These frameworks exist to speed up delivery so that you don&rsquo;t have to reinvent the wheel each time you want to create a site.</p>
+
+<p>Within Django, an app is a Web application that does something, for example a poll app. Within Django, a project is a collection of apps and configurations. An app can be in multiple projects.</p>
+
+<p>Django follows the MVC(Model View Controller) architectural pattern. In the MVC architectural pattern, the model handls all the data and business logic, the view presents data to the user in the supported format and layout, and the controller receives the requests (HTTP GET or POST for example), coordinates, and calls the appropriate resources to carry them out.</p>
+
+<p>When creating a web application, we generally create a set of controllers, models, and views. The reason that it uses this pattern is to provide some separation between the presentation (what the user sees) and the application logic.</p>
+
+<p>In Django, the view pattern is implemented through an abstraction called a template and the controller pattern is implemented through an abstraction called a view.</p>
+
+<h2>Further Resources</h2>
+
+<ul>
+<li><a href="https://code.djangoproject.com/wiki/DjangoResources">Django Resources</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-centos-7">Django Digital Ocean tutorial</a></li>
+<li><a href="http://python-deploy-framework.readthedocs.org/en/latest/pages/django-deployment.html">Deploying a Django application tutorial</a></li>
+<li><a href="http://dpaste.readthedocs.org/en/latest/integration.html">Dpaste docs</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -774,39 +829,6 @@ July 28, 2015 7:00 PM to 9:00 PM at <a href="http://www.yelp.com/biz/crema-coffe
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/01/23/uniball-jetstream/">Uniball Jetstream</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-01-23T12:49:59-08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>12:49 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I purchased a set of 3 Uniball Jetstream RT 0.7 mm black ink in January of 2014. The first thing I noticed was the length of the pen was significantly shorter from the Safari that I&rsquo;ve been using. It will take some time before I can tell whether this is actually a problem or just a difference.</p>
-
-<p>The ink definitely dries quickly. I can&rsquo;t see how someone could smudge this unless the paper was somewhat wet already.</p>
-
-<p>On moleskin paper, it was more readily stuttering where ink seemed to stop.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/2">&larr; Older</a>
@@ -822,6 +844,10 @@ July 28, 2015 7:00 PM to 9:00 PM at <a href="http://www.yelp.com/biz/crema-coffe
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015/12/04/adventures-in-django-with-opsworks-and-chef/">Adventures in Django With OpsWorks and Chef</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015/12/01/examining-tools-with-a-devops-lens/">Examining Tools With a Devops Lens</a>
       </li>
     
@@ -835,10 +861,6 @@ July 28, 2015 7:00 PM to 9:00 PM at <a href="http://www.yelp.com/biz/crema-coffe
     
       <li class="post">
         <a href="/blog/2015/07/28/idea-generation-summary/">Idea Generation Summary</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/07/27/devopsdays-sv-idea-generation-event/">DevOpsDays SV Idea Generation Event</a>
       </li>
     
   </ul>
