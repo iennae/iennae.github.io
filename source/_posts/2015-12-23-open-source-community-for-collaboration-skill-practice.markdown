@@ -9,7 +9,7 @@ categories:
 
 Earlier in the month, I shared some feelings about [examining tools with the devops lens](http://sysadvent.blogspot.com/2015/12/day-2-examining-tools-with-devops-lens.html). In this article, let's dig into more of the technical aspects of working with some of these tools that enable automation and give us increased understanding, transparency, and collaboration.
 
-One of the best things about open source communities is practicing collaboration. One of the worst things, is that how to work with each project can be implicit.
+One of the best things about open source communities is practicing collaboration. One of the worst things is the how to successfully work with each project can be implicit.
 
 In this example, I'll illustrate collaboration with tools using the [Chef community cookbook `users`](https://github.com/chef-cookbooks/users) open source project. I'm using the `users` cookbook as an example as even if someone doesn't know about the intricacies of using Chef, they can still contribute to improving this project because this specific cookbook is about managing users and groups on a system. The goal of the `users` cookbook is to distill the complexities of what is required when adding a user to a system on various platforms into an easy to use resource. This is challenging due to the differences per platform.
 
