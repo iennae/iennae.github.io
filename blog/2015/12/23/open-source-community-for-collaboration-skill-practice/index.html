@@ -1,0 +1,640 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Open Source Community for Collaboration Skill Practice - SIGJE</title>
+  <meta name="author" content="Jennifer Davis">
+
+  
+  <meta name="description" content="Earlier in the month, I shared some feelings about examining tools with the devops lens. In this article, let&rsquo;s dig into more of the technical &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://iennae.github.io/blog/2015/12/23/open-source-community-for-collaboration-skill-practice">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="SIGJE" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-58188943-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">SIGJE</a></h1>
+  
+    <h2>a blog on sparkly devops.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="iennae.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Open Source Community for Collaboration Skill Practice</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-12-23T21:19:14-08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>9:19 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Earlier in the month, I shared some feelings about <a href="http://sysadvent.blogspot.com/2015/12/day-2-examining-tools-with-devops-lens.html">examining tools with the devops lens</a>. In this article, let&rsquo;s dig into more of the technical aspects of working with some of these tools that enable automation and give us increased understanding, transparency, and collaboration.</p>
+
+<p>One of the best things about open source communities is practicing collaboration. One of the worst things, is that how to work with each project can be implicit.</p>
+
+<p>In this example, I&rsquo;ll illustrate collaboration with tools using the <a href="https://github.com/chef-cookbooks/users">Chef community cookbook <code>users</code></a> open source project. I&rsquo;m using the <code>users</code> cookbook as an example as even if someone doesn&rsquo;t know about the intricacies of using Chef, they can still contribute to improving this project because this specific cookbook is about managing users and groups on a system. The goal of the <code>users</code> cookbook is to distill the complexities of what is required when adding a user to a system on various platforms into an easy to use resource. This is challenging due to the differences per platform.</p>
+
+<p>In community cookbooks managed by Chef, a <code>CONTRIBUTING.md</code> doc refers to a centralized <a href="https://github.com/chef-cookbooks/community_cookbook_documentation/blob/master/CONTRIBUTING.MD">CONTRIBUTING.md doc</a>. Including a CONTRIBUTING doc (or a reference to contributing within the README.md) is a recommended practice for open source projects. GitHub will include a banner linking to this doc to potential contributors if it exists.  This allows you to describe up-front the ways in which you would best like to interact with contributions, and the types of contributions that you would and would not like to recieve. For instance, if your project is written in Python, but you don&rsquo;t care for PEP-8, you could state there that a contribution of applying PEP-8 conventions would be unwelcome.</p>
+
+<p>Often these contributing documents sketch out only the minimum processes to get started but there are many workflows and branching strategies that individuals use to collaborate and resolve the conflicts that arise with different perspectives and approaches.</p>
+
+<p>Many learning git tutorials give experience with solo git, but leave out the complexities of collaborative tool use. One can read up on the intricacies of git usage, but without a way to practice, understanding git workflows can be difficult.</p>
+
+<h2>Git Configuration Files</h2>
+
+<p>One way to learn about some of the hidden secrets of git is to examine dotfiles available on GitHub. If something doesn&rsquo;t make sense review the <a href="https://git-scm.com/docs/git-log">git documentation</a>. Let&rsquo;s take a look at a modified example alias from <a href="https://github.com/fnichol/dotfiles/blob/master/home/.gitconfig">Fletcher Nichol&rsquo;s dotfile</a>.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)(%an)%Creset' --date=relative</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The <code>--graph</code> option creates a text based graphical representation of the commit history.</p>
+
+<p>With the <code>--pretty</code> flag, you can specify a formating string.</p>
+
+<p>The format string allows us to focus on what we want to see when looking at the history of commits. In this alias, the symbols translate to showing us the following information in the specific colors.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>%h: abbreviated commit hash
+</span><span class='line'>%d: ref names
+</span><span class='line'>%s: subject
+</span><span class='line'>%cr: committer date, relative
+</span><span class='line'>%an: author name</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Finally <code>--date=relative</code> shows dates relative to the current time, e.g. “2 hours ago”.</p>
+
+<p>When using <code>git graph</code> with this alias, it gives you output like the following:</p>
+
+<p><img src="http://www.jendavis.org/assets/git_graph_example.png" alt="Example of git graph in action."></p>
+
+<p>This makes it easy to see recent commits. If there is a commit of interest, this view makes it really easy to just do <code>git show</code> of the object you want to inspect.</p>
+
+<p>Examining past commits helps us understand how the code is structured on a project, as well as some of the design patterns that project uses for git workflows.</p>
+
+<h2>Issues and Pull Requests</h2>
+
+<p>Looking at open <a href="https://github.com/chef-cookbooks/users/issues">issues</a> and <a href="https://github.com/chef-cookbooks/users/pulls">pull requests</a> (&ldquo;PR&rdquo;) we can obtain additional information about the project and get an idea of the needs of consumers.</p>
+
+<p><a href="https://docs.travis-ci.com/user/for-beginners">Travis</a> is a hosted, distributed and continuous integration service used to build and test projects. <a href="https://travis-ci.org/">Travis integration</a> is free for open source projects. This provides one mechanism for testing pull requests prior to integration to give some level of confidence about risk. The <a href="https://github.com/chef-cookbooks/users/blob/master/.travis.yml">.travis.yml</a> file defines the configuration.</p>
+
+<p>We can look at a sample pull request (PR), <a href="https://github.com/chef-cookbooks/users/pull/117">Pull Request 117</a> from <a href="https://github.com/funzoneq">Arnoud Vermeer</a>. The GitHub GUI will link to a <a href="https://travis-ci.org/chef-cookbooks/users/builds/85706180">build</a>. We can see that <a href="https://github.com/chef-cookbooks/users/pull/117">Pull Request 117</a> has a failure with the <code>rubocop</code> check.</p>
+
+<p><img src="http://www.jendavis.org/assets/example_pr117_failure.png" alt="Pull Request 117 rubocop failure."></p>
+
+<p>When we look at a PR we may find that there are changes we want to accept and changes that we don&rsquo;t want to accept. We can cherry pick explicitly what we want to accept with the <code>cherry-pick</code> command with git, or we can adopt different work flows that have a similar effect.</p>
+
+<h3>Examining a Pull Request - Example 1</h3>
+
+<p>To facilitate working with <a href="https://github.com/chef-cookbooks/users/pull/117">Pull Request 117</a>, let&rsquo;s incorporate another helpful git <a href="https://github.com/fnichol/dotfiles/blob/master/home/.gitconfig">alias</a>, <code>git pr</code>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>pr = "!_git_pr() { git fetch origin pull/$1/head:pr-$1 && git checkout pr-$1; }; _git_pr"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This allows us to quickly pull down and examine someone&rsquo;s contributions from a PR. In this case, I want to pull down PR 117 in the <code>users</code> cookbook and examine it.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>➜  users git:(master) git pr 117
+</span><span class='line'>remote: Counting objects: 8, done.
+</span><span class='line'>remote: Total 8 (delta 4), reused 4 (delta 4), pack-reused 4
+</span><span class='line'>Unpacking objects: 100% (8/8), done.
+</span><span class='line'>From github.com:chef-cookbooks/users
+</span><span class='line'> * [new ref]         refs/pull/117/head -&gt; pr-117
+</span><span class='line'>Switched to branch 'pr-117'</span></code></pre></td></tr></table></div></figure>
+
+
+<p>We can examine the commits in the pull request with <code>git graph</code>.</p>
+
+<p><img src="http://www.jendavis.org/assets/git_graph_users_before.png" alt="Output of git graph with alias"></p>
+
+<p>This shows two commits <code>7623e00</code> and <code>bc74a45</code>.</p>
+
+<p>The main changes are in <code>bc74a45</code>. In this commit the contributor is adding code, so that on FreeBSD platforms it checks to see if the shell specified in the databag json object exists on the node as specified, or in /usr/local. If the shell isn&rsquo;t available in these two locations, we set the shell to the FreeBSD default shell <code>/bin/sh</code>. This PR exposes some fragility in our current definition as we don&rsquo;t check the existence of the shell on any other platform. Depending on our current priority and workload we may rewrite the resource to be less fragile or accept the contributions as they are.</p>
+
+<h3>Examining a Pull Request - Example 2</h3>
+
+<p>There are additional utilities that can help us beyond just the simple git aliases that we can construct. One example is <a href="https://hub.github.com/">hub</a>. As a wrapper around git, <a href="https://hub.github.com/">hub</a> provides some useful additions to the git client making it easier to work with PRs. Once you&rsquo;ve <a href="https://hub.github.com/">installed</a> hub, you can see the project&rsquo;s issues, open up a project&rsquo;s wiki, and a number of other options from the command line.</p>
+
+<p>When working with a PR, you can quickly create a new branch with its contents with a simple checkout:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git checkout https://github.com/chef-cookbooks/users/pull/117</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Similar to the <code>pr</code> alias:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>➜  users git:(master) git checkout https://github.com/chef-cookbooks/users/pull/117
+</span><span class='line'>Updating funzoneq
+</span><span class='line'>remote: Counting objects: 8, done.
+</span><span class='line'>remote: Total 8 (delta 4), reused 4 (delta 4), pack-reused 4
+</span><span class='line'>Unpacking objects: 100% (8/8), done.
+</span><span class='line'>From git://github.com/funzoneq/users
+</span><span class='line'> * [new branch]      master     -&gt; funzoneq/master
+</span><span class='line'>Branch funzoneq-master set up to track remote branch master from funzoneq.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This will create an appropriate named branch, and allow you to take what you want from the PR and add any necessary changes. For example if a PR has minor failures with any test cases, you might want to checkout the PR, tweak it until any failing test passes, and then commit the code.</p>
+
+<p>After checking out the PR, the commits can be evaluated.</p>
+
+<h4>Squashing Commits</h4>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git rebase origin/master -i</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Commits can be skipped, squashed, or edited interactively. Squashing is the process of taking one or more commits and merging it into a previous commit. This is useful to simplify the set of commits that a peer has to review. For just this reason, some projects prefer that commits be rebased or squashed prior to sending a pull request. Some organizations or teams discourage the practice of rebasing or squashing in order to have a high amount of verbosity and code history. Check the contributing documentation or talk to a team member before you adopt a specific practice.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>pick bc74a45 Check if shell exists on FreeBSD. If not, fall back to /bin/sh by default. If it's a manually installed shell, then it lives in /usr/local/bin/{bash,zsh,rbash}
+</span><span class='line'>pick 7623e00 Make Travis CI happy
+</span><span class='line'>
+</span><span class='line'># Rebase 72d3800..7623e00 onto 72d3800
+</span><span class='line'>#
+</span><span class='line'># Commands:
+</span><span class='line'>#  p, pick = use commit
+</span><span class='line'>#  r, reword = use commit, but edit the commit message
+</span><span class='line'>#  e, edit = use commit, but stop for amending
+</span><span class='line'>#  s, squash = use commit, but meld into previous commit
+</span><span class='line'>#  f, fixup = like "squash", but discard this commit's log message
+</span><span class='line'>#  x, exec = run command (the rest of the line) using shell
+</span><span class='line'>#
+</span><span class='line'># These lines can be re-ordered; they are executed from top to bottom.
+</span><span class='line'>#
+</span><span class='line'># If you remove a line here THAT COMMIT WILL BE LOST.
+</span><span class='line'>#
+</span><span class='line'># However, if you remove everything, the rebase will be aborted.
+</span><span class='line'>#
+</span><span class='line'># Note that empty commits are commented out</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I can modify the second <code>pick</code> to <code>s</code> and squash this into a single commit.</p>
+
+<p>When I squash the commit, it creates a new object. After I squash the commit, <code>git graph</code> shows me a new commit object.</p>
+
+<p><img src="http://www.jendavis.org/assets/git_graph_users_after.png" alt="Output of git graph after commit squashed."></p>
+
+<h4>Testing</h4>
+
+<p>I can now test to see if the travis issue is still a problem in the current branch by running <code>rubocop</code>, the command that was failing in the Travis Build earlier manually.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>  users git:(funzoneq-master) rubocop
+</span><span class='line'>Inspecting 16 files
+</span><span class='line'>................</span></code></pre></td></tr></table></div></figure>
+
+
+<p>With rubocop, a <code>.</code> represents a file without issues.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git push -fu origin funzoneq-master</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This sets up a tracking branch and force pushes the edit of the history. In this example, it gives me the option to do a PR (which I did), resulting in <a href="https://github.com/chef-cookbooks/users/pull/123">Pull Request 123</a>. This is possible because I have permission to commit to this repository.</p>
+
+<h3>Examining an Issue</h3>
+
+<p>Let&rsquo;s take a look at a reported issue, <a href="https://github.com/chef-cookbooks/users/issues/118">Issue 118</a>. In this issue, <a href="https://twitter.com/wolf31o2">Chris Gianelloni</a> reported a problem with the <code>users</code> cookbook on Mac OS X.</p>
+
+<p>There is no PR in this case, so I create a branch with <code>git checkout -b</code></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git checkout -b issues_118</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In the earlier example, I skipped over how to validate that the code actually worked on the system. We can manually test the code if we had a Mac OS X laptop using the <a href="https://docs.chef.io/ctl_chef_apply.html"><code>chef-apply</code> command</a>, an executable that runs a single recipe from the command line.</p>
+
+<p>Examining the cookbook structure shows that there are <a href="https://github.com/chef-cookbooks/users/tree/master/spec">chefspec tests</a>, but no other tests. Inside the <code>test</code> directory, there is only a fixtures directory that includes sample cookbooks. This exposes the risk of making changes to code in this project.</p>
+
+<p>In last years sysadvent, I introduced writing <a href="https://docs.chef.io/custom_resources.html">custom resources</a> and using <a href="http://kitchen.ci/">Test Kitchen</a> in the <a href="https://www.chef.io/blog/2014/12/22/sysadvent-day-21-baking-delicious-resources-with-chef/">Baking Delicious Resources with Chef article</a>. <a href="http://kitchen.ci/">Test Kitchen</a> is an implementation of sandbox automation that can run on a individual&rsquo;s computer and integrates with a number of different cloud providers and virtualization technologies including Amazon EC2, CloudStack, Digital Ocean, Rackspace, OpenStack, Vagrant, and Docker. It has a static configuration that can be easily checked into version control along with a software project.</p>
+
+<h4>Using Test Kitchen to Spin Up Instances</h4>
+
+<p>Inside the <code>users</code> cookbook, there is a <a href="https://github.com/chef-cookbooks/users/blob/master/.kitchen.yml"><code>.kitchen.yml</code></a> that has a vagrant driver and the chef_zero driver with a number of platforms. This would allow us to test any of the platforms listed with vagrant and virtualbox.</p>
+
+<p>Apple&rsquo;s EULA has implications towards Mac OS X image availability. While there are some images available on the internet, organizations (and individuals) have to define how to meet Apple&rsquo;s legal requirements. Within Chef, we use <a href="https://atlas.hashicorp.com/">Atlas</a> to store private images for employees use.</p>
+
+<p>To test Mac OS X, I created a new file <code>.kitchen.vmware.yml</code> with the following configuration:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>driver:
+</span><span class='line'>  name: vagrant
+</span><span class='line'>  provider: vmware_fusion
+</span><span class='line'>  customize:
+</span><span class='line'>    numvcpus: 2
+</span><span class='line'>    memsize: 2048
+</span><span class='line'>
+</span><span class='line'>provisioner:
+</span><span class='line'>  name: chef_zero
+</span><span class='line'>
+</span><span class='line'>platforms:
+</span><span class='line'>  - name: macosx-10.11
+</span><span class='line'>    driver:
+</span><span class='line'>      box: chef/macosx-10.11 # private</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Once I do a <code>vagrant login</code> on the command line I can now download the image. I created a symlink to <code>.kitchen.vmware.yml</code></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>ln -s .kitchen.vmware.yml .kitchen.local.yml</span></code></pre></td></tr></table></div></figure>
+
+
+<p><em>Note</em> It&rsquo;s also possible to just define environment variable <code>KITCHEN_LOCAL_YAML</code> rather than creating a symlink.</p>
+
+<p>I can list my instances and see the Mac OS X 10.11 images.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>➜  users git:(issues_118) ✗ kitchen list
+</span><span class='line'>Instance               Driver   Provisioner  Verifier  Transport  Last Action
+</span><span class='line'>default-macosx-1011    Vagrant  ChefZero     Busser    Ssh        &lt;Not Created&gt;
+</span><span class='line'>sysadmins-macosx-1011  Vagrant  ChefZero     Busser    Ssh        &lt;Not Created&gt;</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I converged <code>kitchen converge default-macosx-1011</code>  and reproduced the issue that <a href="https://twitter.com/wolf31o2">Chris</a> reported.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>================================================================================
+</span><span class='line'>           Error executing action `create` on resource 'user[test_user]'
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>           ArgumentError
+</span><span class='line'>           -------------
+</span><span class='line'>           can't find user for test_user
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Logging into the host with <code>kitchen login default-macosx-1011</code>, I could check to see if the user was created with the <code>dscl</code> command.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'> vagrant$ dscl . list /Users | grep test_user
+</span><span class='line'>test_user</span></code></pre></td></tr></table></div></figure>
+
+
+<p>After digging a little further, and some pair code review with <a href="https://twitter.com/nathenharvey">Nathen Harvey</a> we discovered that the issue was with the directory resource wanting a UID rather than a username when declaring the owner on Mac OS X.</p>
+
+<p>Switching from username to UID resolved the errors, but this only tested against Mac OS X. We should do some tests against other operating systems to make sure we haven&rsquo;t broken the provider.</p>
+
+<p>To speed up tests, I use Docker rather than trying to spin up that many VMs with Virtual Box or VMWare. I already have docker-machine installed, if you don&rsquo;t check out this <a href="https://docs.docker.com/machine/get-started/">getting started guide</a>.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>➜  users git:(issues_118) ✗ docker-machine start  default
+</span><span class='line'>Started machines may have new IP addresses. You may need to re-run the `docker-machine env` command.
+</span><span class='line'>➜  users git:(issues_118) ✗ docker-machine env default
+</span><span class='line'>➜  users git:(issues_118) ✗ eval "$(docker-machine env default)"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I&rsquo;m going to use <a href="https://twitter.com/someara">someara&rsquo;s</a> <a href="https://github.com/someara/kitchen-dokken">kitchen-dokken</a> plugin rather than kitchen-docker. After cleaning up my previous run with <code>kitchen destroy</code>, I update the symlink to point to <code>.kitchen.dokken.yml</code>. Now when I issue a <code>kitchen list</code>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>➜  users git:(issues_118) ✗ kitchen list
+</span><span class='line'>Instance               Driver  Provisioner  Verifier  Transport  Last Action
+</span><span class='line'>default-centos-6       Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>default-centos-7       Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>default-fedora-21      Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>default-debian-7       Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>default-ubuntu-1204    Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>default-ubuntu-1404    Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>sysadmins-centos-6     Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>sysadmins-centos-7     Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>sysadmins-fedora-21    Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>sysadmins-debian-7     Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>sysadmins-ubuntu-1204  Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;
+</span><span class='line'>sysadmins-ubuntu-1404  Dokken  Dokken       Busser    Dokken     &lt;Not Created&gt;</span></code></pre></td></tr></table></div></figure>
+
+
+<p>A successful <code>kitchen create</code> and <code>kitchen converge -c</code> confirm that the changes work as expected. <code>kitchen converge -c</code> will run a converge against all matching instances concurrently.</p>
+
+<p>Since there are no integration tests, we manually login in and check whether the home directory gets created as expected.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>root@079f902cf103:/home/test_user# ls -al
+</span><span class='line'>total 24
+</span><span class='line'>drwxr-xr-x 3 test_user test_user 4096 Dec 20 07:02 .
+</span><span class='line'>drwxr-xr-x 3 root      root      4096 Dec 20 07:02 ..
+</span><span class='line'>-rw-r--r-- 1 test_user test_user  220 Apr  9  2014 .bash_logout
+</span><span class='line'>-rw-r--r-- 1 test_user test_user 3637 Apr  9  2014 .bashrc
+</span><span class='line'>-rw-r--r-- 1 test_user test_user  675 Apr  9  2014 .profile
+</span><span class='line'>drwx------ 2 test_user root      4096 Dec 20 07:02 .ssh</span></code></pre></td></tr></table></div></figure>
+
+
+<p>After manual verification, I commited and checked in the code, and created a <a href="https://github.com/chef-cookbooks/users/pull/124">PR</a>.</p>
+
+<h2>More Than Code</h2>
+
+<p>The writing process I follow with sysadvent uses some of these collaborative tips. I post my article up on GitHub in a private repository, and then invite my peer reviewers to the repository.</p>
+
+<p>While collaboratively writing <a href="http://shop.oreilly.com/product/0636920039846.do">Effective Devops</a> with <a href="https://twitter.com/beerops">Katherine Daniels</a>, we used git, AsciiDoc, and O&#8217;Reilly&rsquo;s Atlas; a git-backed web-based platform for publishing books.</p>
+
+<p>The lightweight formats of markdown and AsciiDoc can be collaborative with the use of git. I find limitations compared to more traditional writing tools are around GUI formating within the editors I use. I regularly find myself having to do a little extra commits to the repository to check what the browser view or generated PDF looks like with included images. Overall, this is a small price to pay when getting the benefit of a stronger piece through collaboration. Some of these limitations may be overcome with the use of extensions available in specific editors.</p>
+
+<h2>Summary</h2>
+
+<p>Using <a href="http://kitchen.ci/">Test Kitchen</a> allows me to quickly change which set of tools I want to use - docker, vagrant with Virtual Box, or vagrant with VMWare - depending on the current need. The kitchen configuration files can be saved alongside the project allowing anyone to quickly get going and collaborate from a consistent point.</p>
+
+<p>Combined with the flexibility of <a href="http://kitchen.ci/">Test Kitchen</a>, Vagrant allows us to combine private and publicly available resources so if you are in a situation where you are working on something internal to your company while also contributing to Open Source, you can manage that complexity. In the above example, I&rsquo;m providing my team with knowledge of how to replicate my testing without adding initial complexity to the base <code>.kitchen.yml</code>. It allows me to be transparent about my process without blocking people who don&rsquo;t have access to Chef&rsquo;s internal images or VMWare Fusion.</p>
+
+<p>Additionally, local git configurations or tools like <a href="https://hub.github.com/">hub</a> can simplify the collaboration process allowing us to cherry pick our commits. Talk to your team, peers in the industry, or review a project&rsquo;s CONTRIBUTING.md file to discover other mechanisms that individuals use when working.</p>
+
+<p>Here are a few examples of helpful git snippets that other folks shared with me via Twitter:</p>
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="und" dir="ltr"><a href="https://twitter.com/sigje">@sigje</a> <a href="https://t.co/CR2HURUcmk">https://t.co/CR2HURUcmk</a></p>&mdash; Robb Kidd (@robbkidd) <a href="https://twitter.com/robbkidd/status/678225258994905088">December 19, 2015</a></blockquote>
+
+
+
+
+<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/sigje">@sigje</a> My favorite git alias:&#10;&#10;up = &quot;!f() { git stash &amp;&amp; git pull &#8211;rebase origin master &amp;&amp; git stash pop; }; f&quot;</p>&mdash; Joe Nuspl (@JoeNuspl) <a href="https://twitter.com/JoeNuspl/status/678480616724152320">December 20, 2015</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>Kennon Kwok also shared <a href="https://github.com/jonas/tig">tig</a>, a text mode interface for Git as a useful utility.</p>
+
+<p>In addition, folks mentioned <a href="https://twitter.com/sethvargo">Seth Vargo</a> as being the inspiration for some common habits, and Seth has kindly shared his <a href="https://gist.github.com/sethvargo/73dd1d915411ebffaec0">Git config</a>.</p>
+
+<h2>Further Resources</h2>
+
+<ul>
+<li><a href="http://gitforteams.com/">Emma Jane Hogbin Westby&rsquo;s Git for Teams</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase-i">Atlassian git rebase history</a></li>
+<li><a href="https://docs.travis-ci.com/user/for-beginners">Travis CI for Complete Beginners</a></li>
+<li><a href="http://www.martinfowler.com/articles/continuousIntegration.html">Continuous Integration article from Martin Fowler</a>
+​* <a href="https://www.youtube.com/watch?v=HRrc6UCXFMs">Introduction to Rubocop with Frank Webber</a></li>
+<li><a href="https://learn.chef.io/test-your-infrastructure-code/rhel/">Test your Infrastructure Code - Chef Skill Library</a></li>
+<li><a href="https://atlas.hashicorp.com/help">Atlas documentation</a></li>
+<li><a href="https://docs.docker.com/machine/">Docker Machine</a> and <a href="https://docs.docker.com/machine/get-started/">Getting Started</a></li>
+<li><a href="https://github.com/someara/kitchen-dokken">kitchen-dokken</a></li>
+</ul>
+
+
+<h2>Thank you!</h2>
+
+<p>Thank you <a href="https://twitter.com/gwaldo">H. Waldo Grunenwald</a>, <a href="https://twitter.com/robbkidd">Robb Kidd</a>, <a href="https://twitter.com/kamihack">Carlos Maldonado</a>, <a href="https://twitter.com/vmbrasseur">VM Brasseur</a>, and <a href="https://twitter.com/kennonkwok">Kennon Kwok</a> for peer review and aditional edits.</p>
+
+<p>Thank you to all of the <a href="https://twitter.com/chef">Chef Community Engineering Team</a> that provided answers to my questions over the last few months inspiring this article.</p>
+
+<p>Thank you to <a href="https://github.com/funzoneq">Arnoud Vermeer</a> for contributing <a href="https://github.com/chef-cookbooks/users/pull/117">PR 117</a> and <a href="https://twitter.com/wolf31o2">Chris Gianelloni</a> for contributing <a href="https://github.com/chef-cookbooks/users/issues/118">Issue 118</a> giving me the opportunity to add context to talking about collaboration with reported issues and pull requests. Your continued contributions to the Chef community are valued and appreciated!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jennifer Davis</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-12-23T21:19:14-08:00'><span class='date'><span class='date-month'>Dec</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>9:19 pm</span></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://iennae.github.io/blog/2015/12/23/open-source-community-for-collaboration-skill-practice/" data-via="sigje" data-counturl="http://iennae.github.io/blog/2015/12/23/open-source-community-for-collaboration-skill-practice/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/12/04/adventures-in-django-with-opsworks-and-chef/" title="Previous Post: Adventures in Django with OpsWorks and Chef">&laquo; Adventures in Django with OpsWorks and Chef</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/12/23/open-source-community-for-collaboration-skill-practice/">Open Source Community for Collaboration Skill Practice</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/04/adventures-in-django-with-opsworks-and-chef/">Adventures in Django With OpsWorks and Chef</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/12/01/examining-tools-with-a-devops-lens/">Examining Tools With a Devops Lens</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/11/14/devopsdays-silicon-valley-welcome/">DevOpsDays Silicon Valley Welcome</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/10/05/devopsdays-silicon-valley-2015-speaker-selection-process/">DevOpsDays Silicon Valley 2015 Speaker Selection Process</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Jennifer Davis -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
