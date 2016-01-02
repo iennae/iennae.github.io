@@ -140,7 +140,8 @@
 <h3>Installation of Chef</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ kitchen converge</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>kitchen converge
+</span></code></pre></td></tr></table></div></figure>
 
 
 <p>Converging my node with <code>kitchen converge</code> will install chef, and run the <em>default</em> recipe found in <code>meteor-app/recipes/default.rb</code> (which is currently empty).</p>
@@ -150,7 +151,8 @@
 <p>Next I&rsquo;ll log into the system and follow through the process required for the class.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ kitchen login</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>kitchen login
+</span></code></pre></td></tr></table></div></figure>
 
 
 <p>If I had more than one instance, I would need to specify a specific instance <code>kitchen login INSTANCE</code>. My instance is called <code>default-centos-71</code> so <code>kitchen login default-centos-71</code> would work.</p>
@@ -160,7 +162,8 @@
 <p>Within the course, the first thing they ask is to setup a working directory. It doesn&rsquo;t matter as much since I&rsquo;ve created a separate development instance. I make the directory <code>mkdir dev</code>, and also update the <code>default.rb</code> recipe with a resource <a href="https://docs.chef.io/resource_directory.html"><code>directory</code></a>.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>directory "/home/vagrant/dev/"</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">directory</span> <span class="s2">&quot;/home/vagrant/dev/&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
 <p>Now if I were to copy my <code>meteor-app</code> cookbook to a new system and run <code>kitchen converge</code> the system that booted up will have the <code>dev</code> directory created for me.</p>
@@ -171,16 +174,19 @@
 
 <p>To translate into Chef for my recipe, I could try out the Community Cookbook <a href="https://supermarket.chef.io/cookbooks/meteor"><code>meteor</code></a>, <a href="https://github.com/huned/meteor-chef-cookbook"><code>meteor</code></a>, or I can just setup the minimum needed using the shell script that is available at <a href="https://install.meteor.com/"><code>https://install.meteor.com</code></a>. We could even store the specific version within the cookbook. If we browse the <a href="https://install.meteor.com/">script</a> we can examine exactly what it&rsquo;s doing and plan accordingly.</p>
 
-<p>Next within the course, I created an app from the commandline on the virtual machine with <code>meteor create my_first_app</code>. This sets up 3 files</p>
+<p>Next within the course, I created an app from the commandline on the virtual machine with <code>meteor create my_first_app</code>.</p>
 
 <p><img src="http://www.jendavis.org/assets/01_01_5_56_32.png" alt="Starting up meteor"></p>
+
+<p>This sets up 3 files:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'> my_first_app.css
+</pre></td><td class='code'><pre><code class='bash'><span class='line'> my_first_app.css
 </span><span class='line'> my_first_app.html
-</span><span class='line'> my_first_app.js</span></code></pre></td></tr></table></div></figure>
+</span><span class='line'> my_first_app.js
+</span></code></pre></td></tr></table></div></figure>
 
 
 <p>Next, within the <code>my_first_app</code> directory I start up my system with <code>meteor</code>.</p>
