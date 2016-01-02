@@ -48,9 +48,10 @@ Running kitchen create will set up an instance of Centos 7 for me based off of t
 
 ### Installation of Chef
 
-```
+{% codeblock lang:bash %}
+
 $ kitchen converge
-```
+{% endcodeblock %}
 
 Converging my node with `kitchen converge` will install chef, and run the _default_ recipe found in `meteor-app/recipes/default.rb` (which is currently empty). 
 
@@ -58,9 +59,9 @@ Converging my node with `kitchen converge` will install chef, and run the _defau
 
 Next I'll log into the system and follow through the process required for the class. 
 
-```
+{% codeblock lang:bash %}
 $ kitchen login
-```
+{% endcodeblock %}
 
 If I had more than one instance, I would need to specify a specific instance `kitchen login INSTANCE`. My instance is called `default-centos-71` so `kitchen login default-centos-71` would work.
 
@@ -68,9 +69,9 @@ By default I'm logging in as the user `vagrant` when I do `kitchen login`.
 
 Within the course, the first thing they ask is to setup a working directory. It doesn't matter as much since I've created a separate development instance. I make the directory `mkdir dev`, and also update the `default.rb` recipe with a resource [`directory`](https://docs.chef.io/resource_directory.html).
 
-```
+{% codeblock lang:ruby %}
 directory "/home/vagrant/dev/"
-```
+{% endcodeblock %}
 
 Now if I were to copy my `meteor-app` cookbook to a new system and run `kitchen converge` the system that booted up will have the `dev` directory created for me. 
 
@@ -80,15 +81,18 @@ The next step is to install the Meteor JavaScript App. This uses the curl bash s
 
 To translate into Chef for my recipe, I could try out the Community Cookbook [`meteor`](https://supermarket.chef.io/cookbooks/meteor), [`meteor`](https://github.com/huned/meteor-chef-cookbook), or I can just setup the minimum needed using the shell script that is available at [`https://install.meteor.com`](https://install.meteor.com/). We could even store the specific version within the cookbook. If we browse the [script](https://install.meteor.com/) we can examine exactly what it's doing and plan accordingly.
 
-Next within the course, I created an app from the commandline on the virtual machine with `meteor create my_first_app`. This sets up 3 files 
+Next within the course, I created an app from the commandline on the virtual machine with `meteor create my_first_app`. 
 
 <img src="http://www.jendavis.org/assets/01_01_5_56_32.png" alt="Starting up meteor">
 
-```
+This sets up 3 files:
+
+{% codeblock lang:bash %}
  my_first_app.css
  my_first_app.html
  my_first_app.js
-```
+{% endcodeblock %}
+
 Next, within the `my_first_app` directory I start up my system with `meteor`.
 
 Once I install `meteor.js`, setup the app, and start up `meteor`, I realize that it is running on port 3000 by default. Since I'm running this on a virtual machine, I can't just go directly to port 3000 from my web browser. I can fix this by updating the driver for vagrant to have a section on network to forward the local port on my system to the port on the virtual machine.
