@@ -9,7 +9,7 @@
   <meta name="author" content="Jennifer Davis">
 
   
-  <meta name="description" content="Earlier in the month, I shared some feelings about examining tools with the devops lens. In this article, let&rsquo;s dig into more of the technical &hellip;">
+  <meta name="description" content="Earlier in 2015, I heard about Meteor a JavaScript App platform when someone was describing their application stack. When I saw it available as an &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -77,6 +77,140 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2016/01/01/using-test-kitchen-to-create-sandboxes-for-learning/">Using Test Kitchen to Create Sandboxes for Learning</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-01-01T18:26:51-08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>1</span><span class='date-suffix'>st</span>, <span class='date-year'>2016</span></span> <span class='time'>6:26 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Earlier in 2015, I heard about <a href="https://www.meteor.com/">Meteor a JavaScript App platform</a> when someone was describing their application stack. When I saw it available as an <a href="https://www.coursera.org/learn/meteor-development/home/welcome">introductionary course</a> on Coursera, I decided to take the class and build on my JavaScript, HTML, and CSS experience.</p>
+
+<p>I&rsquo;m loathe to install development software directly onto my laptop when I&rsquo;m first learning about it. One, I don&rsquo;t know what I don&rsquo;t know, and being able to quickly destroy the environment helps me to clean up if there is any security issues. Two, if there are conflicts with software that I depend on in my day to day this could be a nightmare of creating extra yaks to shave just to get back to a working state.</p>
+
+<p>I solve this by using <a href="http://kitchen.ci/">Test Kitchen</a> with <a href="https://www.chef.io/">Chef</a> and <a href="https://www.vagrantup.com/">Vagrant</a> (or AWS) to quickly spin up a system that I can use to complete the coursework and experiment without impacting my system (other than system resources like diskspace, memory, cpu when using Vagrant).</p>
+
+<p>The following documents a little bit about how I do this. It&rsquo;s very much an iterative and incremental process that leaves me with something that I can repeat the course as needed. If used in combination with <a href="https://git-scm.com/">git</a>, I can quickly revert to a specific module within the class even.</p>
+
+<h3>Pre-Requisites</h3>
+
+<p>Install the <a href="https://downloads.chef.io/chef-dk/">Chef Development Kit</a>, which includes Test Kitchen.</p>
+
+<h3>Setup the Base Cookbook</h3>
+
+<p>First I setup a base cookbook that is essentially my class project cookbook. For the Meteor class, I called it <code>meteor-app</code> which is probably not the best name to use, but it works. If I were commiting my code back to GitHub to share, I&rsquo;d probably be a bunch more specific in the naming.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>
+</span><span class='line'>$ kitchen create cookbook meteor-app
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I edit the newly created <code>.kitchen.yml</code> and edit the platforms section, choosing a single platform. As this is for a class and testing for a specific application, I&rsquo;m not trying to test across all platforms. I chose to stick with Centos as that will work fine in this instance for this class and deleted the Ubuntu platform specification.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ kitchen list</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The output of kitchen list at this point will show one instance that is Centos specific.</p>
+
+<h3>Creation of Base Image</h3>
+
+<p>Setting up the base image is quick with a <code>kitchen create</code>. If the base OS image (for this instance <a href="https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-7.1_chef-provisionerless.box">https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-7.1_chef-provisionerless.box</a>) isn&rsquo;t available on the system, this will be downloaded from the internet. In this case, I&rsquo;ve done this many times so it&rsquo;s already available to me and the setup is very quick. I could also modify this and specify exactly what image I want to use.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ kitchen create</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Running kitchen create will set up an instance of Centos 7 for me based off of this image on my local laptop. If I wanted to use AWS, I would modify the driver name from <em>vagrant</em>.</p>
+
+<h3>Installation of Chef</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ kitchen converge</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Converging my node with <code>kitchen converge</code> will install chef, and run the <em>default</em> recipe found in <code>meteor-app/recipes/default.rb</code> (which is currently empty).</p>
+
+<h3>Logging In</h3>
+
+<p>Next I&rsquo;ll log into the system and follow through the process required for the class.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ kitchen login</span></code></pre></td></tr></table></div></figure>
+
+
+<p>If I had more than one instance, I would need to specify a specific instance <code>kitchen login INSTANCE</code>. My instance is called <code>default-centos-71</code> so <code>kitchen login default-centos-71</code> would work.</p>
+
+<p>By default I&rsquo;m logging in as the user <code>vagrant</code> when I do <code>kitchen login</code>.</p>
+
+<p>Within the course, the first thing they ask is to setup a working directory. It doesn&rsquo;t matter as much since I&rsquo;ve created a separate development instance. I make the directory <code>mkdir dev</code>, and also update the <code>default.rb</code> recipe with a resource <a href="https://docs.chef.io/resource_directory.html"><code>directory</code></a>.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>directory "/home/vagrant/dev/"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now if I were to copy my <code>meteor-app</code> cookbook to a new system and run <code>kitchen converge</code> the system that booted up will have the <code>dev</code> directory created for me.</p>
+
+<p>For each change that the class asks me to do, I can try it out, then set up my recipe to reflect what needs to be done. I can then commit the changes as I go through each module with documentation to a local git repository or even GitHub which would allow me to go back to that specific state in time of the environment as I want to. If I want to test out something that is different from what the instructor has asked, I can without worry of completely breaking my environment. This is especially important when I&rsquo;m working with something new that I don&rsquo;t have enough context about to understand how my changes impact the system.</p>
+
+<p>The next step is to install the Meteor JavaScript App. This uses the curl bash syntax <code>curl https://install.meteor.com/ | sh</code>.</p>
+
+<p>To translate into Chef for my recipe, I could try out the Community Cookbook <a href="https://supermarket.chef.io/cookbooks/meteor"><code>meteor</code></a>, <a href="https://github.com/huned/meteor-chef-cookbook"><code>meteor</code></a>, or I can just setup the minimum needed using the shell script that is available at <a href="https://install.meteor.com/"><code>https://install.meteor.com</code></a>. We could even store the specific version within the cookbook. If we browse the <a href="https://install.meteor.com/">script</a> we can examine exactly what it&rsquo;s doing and plan accordingly.</p>
+
+<p>Next within the course, I created an app from the commandline on the virtual machine with <code>meteor create my_first_app</code>. This sets up 3 files</p>
+
+<p><img src="http://www.jendavis.org/assets/01_01_5_56_32.png" alt="Starting up meteor"></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'> my_first_app.css
+</span><span class='line'> my_first_app.html
+</span><span class='line'> my_first_app.js</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Next, within the <code>my_first_app</code> directory I start up my system with <code>meteor</code>.</p>
+
+<p>Once I install <code>meteor.js</code>, setup the app, and start up <code>meteor</code>, I realize that it is running on port 3000 by default. Since I&rsquo;m running this on a virtual machine, I can&rsquo;t just go directly to port 3000 from my web browser. I can fix this by updating the driver for vagrant to have a section on network to forward the local port on my system to the port on the virtual machine.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>driver:
+</span><span class='line'>  name: vagrant
+</span><span class='line'>  network:
+</span><span class='line'>  - ["forwarded_port", {guest: 3000, host: 3000}]</span></code></pre></td></tr></table></div></figure>
+
+
+<p>With this configuration, I can now browse to <code>localhost:3000</code>.</p>
+
+<p><img src="http://www.jendavis.org/assets/01_01_5_57_27.png" alt="Browsing to the Virtual Machine localhost:3000"></p>
+
+<p>Now I have a working environment that allows me to edit my local cookbook, converge my node, and see the output of my changes from my browser without breaking anything on my base system. I can keep iterating and changing as needed. As long as my cookbook reflects the changes that I need to replicate my environment, I can quickly get back to a working state as needed.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -1157,77 +1291,6 @@ July 28, 2015 7:00 PM to 9:00 PM at <a href="http://www.yelp.com/biz/crema-coffe
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/07/20/sparkle-edition-washington-dc-training/">Sparkle Edition Washington DC Training</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-07-20T11:18:49-07:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>20</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:18 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Since I&rsquo;m co-chairing the Devops track at Agile 2015 with <a href="http://www.ddegrandis.com/">Dominica DeGrandis</a>, I figured I&rsquo;d take the opportunity to meet more folks in the Washington DC area to see what kind of different challenges folks are facing with implementing Chef and Devops in general. One way I&rsquo;m doing this is an open invite for early edition <a href="http://www.coffeeops.org/">CoffeeOps</a>. I&rsquo;m also giving <a href="https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/">Chef Intermediate</a> on August 10-11 and <a href="https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/">Chef Fundamentals</a> on August 12-13.</p>
-
-<p>One thing that I really enjoy about Chef (the company) is that we make our <a href="https://www.chef.io/contact/open-training/">training materials</a> available to folks under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons license</a> that allows (even encourages) folks to share and adapt the content as long as appropriate credit and licensing is maintained. Every individual that does Chef training teaches a little bit differently in terms of style although the materials are exactly the same. The value in the training isn&rsquo;t the materials, but the conversations, interactions and space that is created by the actual class. Every class is completely different because the people going to the training are completely different.</p>
-
-<p>Private trainings (trainings for specific companies) are really interesting because we can have really deep discussions about specific topics (depending on time) and it&rsquo;s easier to get people in a collaborative mindset.</p>
-
-<p>Public trainings are also very interesting because I can encourage folks to cross the chasms between companies and share their individual challenges. I&rsquo;ve found that depending on the area that I&rsquo;m training, it can be harder to encourage folks to get into a collaborative mindset. (Shoutout to the trainings I did in Chicago where folks were 100% helpful. Extra kudos to Phaedra Evans and <a href="https://twitter.com/MarvinEStreet">Marvin Street</a> for going above and beyond in supporting their fellow students!)</p>
-
-<p>My goals when training are to create a safe place for folks to learn, share and build connections. All of our trainings fall under the Chef community <a href="https://docs.chef.io/community_guidelines.html">code of conduct</a>.</p>
-
-<p>In Fundamentals, my goals are to help folks understand the core concepts of chef, read cookbooks confidentally with an eye towards identifying good and bad patterns, write cookbooks, and debug issues that occur through understanding what&rsquo;s going on. In Intermediate, my goals are to help people to understand more about identifying good patterns in using chef through greater understanding of resources through writing lightweight resource and providers (LWRPs),  additional debugging skills, and basic testing while in the process of leveling up ruby skills.</p>
-
-<p>How do you know whether you are ready for <a href="https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/">Intermediate training</a>?</p>
-
-<ul>
-<li>Do you understand what happens when chef-client runs?</li>
-<li>Can you explain Chef terminology clearly without having to look it up? i.e. concepts like resource, recipe, cookbook, organizations, roles, environments</li>
-<li>Are you comfortable with your editor of choice and navigating the organization of a Chef cookbook?</li>
-<li>Do you have Chef DK installed on your workstation?</li>
-</ul>
-
-
-<p>A second thing that I really enjoy about Chef (the company) is the attention to diversity and inclusion measures. Earlier in the year we provided <a href="https://www.chef.io/blog/2015/03/05/apply-for-a-chefconf-2015-diversity-scholarship-by-march-13/">diversity scholarships to Chef Conf</a>. Additionally, we regularly provide training scholarships.</p>
-
-<p>I have a diversity training pass for <a href="https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/">Chef Fundamentals</a> on August 12-13. Training includes a continental breakfast, lunch, and an assortment of beverages. Please get in touch with me <a href="mailto:sigje@chef.io">sigje@chef.io</a> if you are available for the days of the class, have transportation to and from the class, have a wifi-enabled laptop, a SSH/SCP agent (OpenSSH, putty/WinSCP or equivalent), and a text editor, and most importantly have an interest in learning how to write infrastructure as code with Chef. Please provide the following information:</p>
-
-<ul>
-<li>Name</li>
-<li>Contact information</li>
-<li>Background</li>
-<li>Confirmation that you can attend Fundamentals training on August 12-13, 2015 at the MicroTek in Washington DC with a functional laptop.</li>
-</ul>
-
-
-<p>If you are interested, but feel you don&rsquo;t have the right skills please get in touch anyways. I will help you identify whether you are gauging your abilities correctly for this Fundamentals class, and also point you in the direction of resources that will help you get the right skills. One resource that is available to you right now is the <a href="http://learn.chef.io/">Learn Chef site</a> that will walk you through some of the initial concepts and prep your workstation to be ready for the class.</p>
-
-<p>I also have a sekret code &ldquo;HELLO-CHEF&rdquo; that will take 10% off both <a href="https://www.chef.io/blog/event/2-day-chef-fundamentals-washington-dc-5/">Chef Fundamentals</a> and <a href="https://www.chef.io/blog/event/chef-intermediate-topics-washington-dc-3/">Chef Intermediate</a>.</p>
-
-<p>ETA: Extra special code &ldquo;WDC20&rdquo; for 20% off both classes!</p>
-
-<p>The conference and training start early, so if you are an early person and are up for some <a href="http://www.coffeeops.org/">CoffeeOps</a> time in the DC area let me know!</p>
-
-<p>Sparkle On!</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/posts/2">&larr; Older</a>
@@ -1241,6 +1304,10 @@ July 28, 2015 7:00 PM to 9:00 PM at <a href="http://www.yelp.com/biz/crema-coffe
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/01/01/using-test-kitchen-to-create-sandboxes-for-learning/">Using Test Kitchen to Create Sandboxes for Learning</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/12/23/open-source-community-for-collaboration-skill-practice/">Open Source Community for Collaboration Skill Practice</a>
@@ -1258,10 +1325,6 @@ July 28, 2015 7:00 PM to 9:00 PM at <a href="http://www.yelp.com/biz/crema-coffe
         <a href="/blog/2015/11/14/devopsdays-silicon-valley-welcome/">DevOpsDays Silicon Valley Welcome</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2015/10/05/devopsdays-silicon-valley-2015-speaker-selection-process/">DevOpsDays Silicon Valley 2015 Speaker Selection Process</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -1275,7 +1338,7 @@ July 28, 2015 7:00 PM to 9:00 PM at <a href="http://www.yelp.com/biz/crema-coffe
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Jennifer Davis -
+  Copyright &copy; 2016 - Jennifer Davis -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
